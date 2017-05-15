@@ -4,18 +4,21 @@ $collageBorder: 20px;
 .post {
 
   .collage  {
-    padding: ($collageBorder - ($imageGap/2));
+    float: left;
+    padding: $collageBorder ($collageBorder / 2);
+    width: 100%;
+    height: 50%;
     @media (min-width: $screen-sm-min) {
-      padding: ($collageBorder - ($imageGap/2));
+      padding: ($collageBorder - ($imageGap / 2));
       width: 50%;
       height: 100%;
-      float: left;
     }
 
     .intro {
       float: left;
       background: #fff;
       padding: $imageGap / 2;
+      width: 100%;
       hr {
         padding: 0;
         margin: 0;
@@ -27,11 +30,20 @@ $collageBorder: 20px;
         margin: 0 0 5px 0;
         font-style: italic;
         font-weight: 100;
-        font-size: 30px;
-        line-height: 1.2;
         border-bottom: 4px solid #000;
         text-transform: lowercase;
         padding: 5px 0;
+        line-height: 1.2;
+        font-size: 34px;
+        @media (min-width: $screen-sm-min) {
+          font-size: 24px;
+        }
+        @media (min-width: $screen-md-min) {
+          font-size: 26px;
+        }
+        @media (min-width: $screen-lg-min) {
+          font-size: 30px;
+        }
       }
 
       p {
@@ -45,6 +57,10 @@ $collageBorder: 20px;
       height: 100%;
       width: 100%;
       padding: $imageGap / 2;
+      display: none;
+      @media (min-width: $screen-sm-min) {
+        display: block;
+      }
       .inner {
         height: 100%;
         width: 100%;
@@ -53,18 +69,21 @@ $collageBorder: 20px;
       }
     }
 
-    &.layout-one {
+    &.layout-one,
+    &.layout-two {
 
       .top {
-        height: 50%;
+        height: 100%;
+        @media (min-width: $screen-sm-min) {
+          height: 50%;
+        }
 
         .left {
-          width: 60%;
           height: 100%;
           float: left;
-
-          .intro {
-            width: 100%;
+          width: 100%;
+          @media (min-width: $screen-md-min) {
+            width: 50%;
           }
 
           .image-one {
@@ -72,25 +91,87 @@ $collageBorder: 20px;
           }
         }
         .right {
-          width: 40%;
+          width: 50%;
           height: 100%;
           float: left;
+          display: none;
+          @media (min-width: $screen-md-min) {
+            display: block;
+          }
         }
       }
 
       .bottom {
         height: 50%;
+        display: none;
+        @media (min-width: $screen-sm-min) {
+          display: block;
+        }
+
+        .left {
+          height: 100%;
+          float: left;
+          width: 100%;
+          @media (min-width: $screen-sm-min) {
+            width: 50%;
+          }
+        }
+        .right {
+          width: 50%;
+          height: 100%;
+          float: left;
+          display: none;
+          @media (min-width: $screen-sm-min) {
+            display: block;
+          }
+        }
+
       }
     }
+
+    &.layout-three {
+      .left {
+        height: 100%;
+        float: left;
+        width: 100%;
+        @media (min-width: $screen-md-min) {
+          width: 50%;
+        }
+      }
+      .right {
+        height: 100%;
+        float: left;
+        width: 50%;
+        display: none;
+        @media (min-width: $screen-md-min) {
+          display: block;
+        }
+        .top {
+          height: 33.3333%;
+          width: 100%;
+        }
+        .middle {
+          height: 33.3333%;
+          width: 100%;
+        }
+        .bottom {
+          height: 33.3333%;
+          width: 100%;
+        }
+      }
+    }
+
   }
   
   .feature {
     background-size: cover;
     background-position: center center;
+    float: left;
+    width: 100%;
+    height: 50%;
     @media (min-width: $screen-sm-min) {
       width: 50%;
       height: 100%;
-      float: left;
     }
   }
 }

@@ -76,6 +76,14 @@ $(document).ready(function() {
   $( ".layout-one" ).each(function(index, element) {
     layoutOneImageOneHeight(element);
   });
+
+  $( ".layout-two" ).each(function(index, element) {
+    layoutOneImageOneHeight(element);
+  });
+
+  $( ".layout-three" ).each(function(index, element) {
+    layoutThreeImageOneHeight(element);
+  });
 });
 
 function layoutOneImageOneHeight(section) {
@@ -84,4 +92,12 @@ function layoutOneImageOneHeight(section) {
   padding = parseInt($(section).find('.top .left .intro').css('padding'));
   imageOneHeight = topHeight - introHeight - (padding * 2);
   $(section).find('.top .image-one').height(imageOneHeight);
+}
+
+function layoutThreeImageOneHeight(section) {
+  leftHeight = $(section).find('.left').height();
+  introHeight = $(section).find('.left .intro').outerHeight();
+  padding = parseInt($(section).find('.left .intro').css('padding'));
+  imageOneHeight = leftHeight - introHeight - (padding * 2);
+  $(section).find('.left .image-one').height(imageOneHeight);
 }
