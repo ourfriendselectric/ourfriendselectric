@@ -34,3 +34,19 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
+defaults:
+  - type: 'posts'
+    values:
+      _hide_content: true
+      intro:
+        client: Client Name.
+        project: Project Name
+        description_html: >
+         Description
+      featured_image_path: /images/placeholder.png
+      images: 
+        - image_path: /images/placeholder.png
+        - image_path: /images/placeholder.png
+        - image_path: /images/placeholder.png
+        - image_path: /images/placeholder.png
+        - image_path: /images/placeholder.png
