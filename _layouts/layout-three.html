@@ -1,0 +1,24 @@
+<article class="post section" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="collage">
+    <div class="intro">
+      <h2>{{ page.client }}<br>{{ page.project }}</h2>
+      <p>{{ page.intro }}</p>
+    </div>
+
+    <div class="images {{ page.layout }}">
+      {% for image_hash in page.images %}
+        {% for image in image_hash %}
+          <div class="image-{{ image[0] }}">
+            {{ image[1] }}
+          </div>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="feature" style="background-image: url('{{ page.featured-image }}');">
+    
+  </div>
+
+</article>

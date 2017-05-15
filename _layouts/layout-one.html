@@ -1,0 +1,44 @@
+<article class="post section" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="collage {{ page.layout }}">
+
+    <div class="top">
+
+      <div class="left">
+
+        {% include intro.html 
+         client=page.client 
+         project=page.project 
+         intro=page.intro 
+        %}
+
+        <div class="image-one">
+            {{ page.images[0] }}
+        </div>
+
+      </div>
+
+      <div class="right">
+
+        <div class="image-two">
+            {{ page.images[1] }}
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="bottom">
+
+        <div class="image-three">
+            {{ page.images[2] }}
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="feature" style="background-image: url('{{ page.featured-image }}');">
+    
+  </div>
+
+</article>

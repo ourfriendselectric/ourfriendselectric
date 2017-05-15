@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div id="fullpage">
+
+  <section class="hero section">
+    <div class="logo">
+      <h1>Our<br>Friends<br>Electric</h1>
+    </div>
+  </section>
+
+  {% for post in site.posts %}
+
+    {% for tag in post.tags %}
+      {% if tag == "home" %}
+        {{ post }}
+      {% endif %}
+    {% endfor %}
+
+  {% endfor %}
+
+</div>
