@@ -37,16 +37,15 @@ sass:
 defaults:
   - type: 'posts'
     values:
-      _hide_content: true
       intro:
         client: Client Name.
         project: Project Name
         description_html: >
          Description
-      featured_image_path: /images/placeholder.png
+      featured_image_path: 
       images: 
-        - image_path: /images/placeholder.png
-        - image_path: /images/placeholder.png
-        - image_path: /images/placeholder.png
-        - image_path: /images/placeholder.png
-        - image_path: /images/placeholder.png
+        - image_path: 
+        - image_path: 
+        - image_path: 
+        - image_path: 
+        - image_path: 
