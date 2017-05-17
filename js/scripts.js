@@ -73,6 +73,12 @@ $(document).ready(function() {
       // onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
   });
 
+  $( "#contact" ).click(function(event) {
+    event.preventDefault();
+    $('#overlay').addClass('active');
+    $('.contact').addClass('active');
+  });
+
   $( ".layout-one" ).each(function(index, element) {
     layoutOneImageOneHeight(element);
   });

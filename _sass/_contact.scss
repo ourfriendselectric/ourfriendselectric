@@ -1,0 +1,38 @@
+.contact {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  border-radius: 1px;
+  padding: 20px;
+  z-index: 1000;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  a {
+    color: #000;
+  }
+
+  display: none;
+  &.active {
+    display: block;
+  }
+}
+
+#overlay {
+  background: rgba(#000, 0.8);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 900;
+  display: none;
+  &.active {
+    display: block;
+  }
+}
