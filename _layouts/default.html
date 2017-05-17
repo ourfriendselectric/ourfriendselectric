@@ -16,4 +16,16 @@
 
 	<script type="text/javascript" src="{{ "/js/scripts.js" | relative_url }}"></script>
 
+	{% if page.heroes %}
+	  <script>
+	  	$(document).ready(function() {
+	  		var images = [];
+			{% for image in page.heroes %}
+			  images.push('{{ image.image_path }}');
+			{% endfor %}
+		  	slideshow(images);
+		});
+	  </script>
+	{% endif %}
+
 </html>

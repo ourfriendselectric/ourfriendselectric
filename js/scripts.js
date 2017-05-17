@@ -101,3 +101,11 @@ function layoutThreeImageOneHeight(section) {
   imageOneHeight = leftHeight - introHeight - (padding * 2);
   $(section).find('.left .image-one').height(imageOneHeight);
 }
+
+function slideshow(images) {
+  var min = 0;
+  var max = images.length - 1;
+  var random = Math.floor(Math.random() * (max - min + 1)) + min;
+  var image = "url(" + images[random] + ")";
+  $('.hero').css('background-image', image);
+}
