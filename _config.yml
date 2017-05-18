@@ -36,7 +36,9 @@ sass:
   style: compressed
   
 collections:
-  - projects
+  projects:
+    output: true
+    permalink: /:name
   
 defaults:
   - type: 'projects'

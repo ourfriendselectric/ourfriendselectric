@@ -3,7 +3,7 @@ $(document).ready(function() {
       //Navigation
       // menu: '#menu',
       // lockAnchors: false,
-      // anchors:['firstPage', 'secondPage'],
+      anchors:['firstPage', 'secondPage'],
       // navigation: false,
       // navigationPosition: 'right',
       // navigationTooltips: ['firstSlide', 'secondSlide'],
@@ -17,7 +17,7 @@ $(document).ready(function() {
       // autoScrolling: true,
       // fitToSection: true,
       // fitToSectionDelay: 1000,
-      // scrollBar: false,
+      scrollBar: true,
       // easing: 'easeInOutCubic',
       // easingcss3: 'ease',
       // loopBottom: false,
@@ -42,7 +42,7 @@ $(document).ready(function() {
       //Accessibility
       // keyboardScrolling: true,
       // animateAnchor: true,
-      // recordHistory: true,
+      recordHistory: true,
 
       //Design
       // controlArrows: true,
