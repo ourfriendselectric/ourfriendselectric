@@ -10,14 +10,10 @@ layout: default
     </div>
   </section>
 
-  {% for post in site.posts %}
-
-    {% for tag in post.tags %}
-      {% if tag == "home" %}
-        {{ post }}
-      {% endif %}
-    {% endfor %}
-
+  {% for project in site.projects %}
+    {% if project.homepage == true %}
+      {{ project }}
+    {% endif %}
   {% endfor %}
 
 </div>
