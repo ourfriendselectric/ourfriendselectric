@@ -1,14 +1,49 @@
+/* Webfont: BodoniBE-Regular */@font-face {
+    font-family: 'BodoniBE';
+    src: url('./fonts/BodoniBE-Regular.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/BodoniBE-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/BodoniBE-Regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/BodoniBE-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/BodoniBE-Regular.svg#BodoniBE-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: BodoniBE-Italic */@font-face {
+    font-family: 'BodoniBE';
+    src: url('./fonts/BodoniBE-Italic.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/BodoniBE-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/BodoniBE-Italic.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/BodoniBE-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/BodoniBE-Italic.svg#BodoniBE-Italic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: AkzidenzGrotConBQ-Medium */@font-face {
+    font-family: 'Akzidenz-GroteskCondensedBQ';
+    src: url('./fonts/AkzidenzGrotConBQ-Medium.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/AkzidenzGrotConBQ-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/AkzidenzGrotConBQ-Medium.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/AkzidenzGrotConBQ-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/AkzidenzGrotConBQ-Medium.svg#AkzidenzGrotConBQ-Medium') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
 html {
-	font-size: 6px;
+	font-size: 7px;
 }
 
 body {
-	font-family: "Bodoni BE";
+	font-family: "BodoniBE";
 	color: $color-black;
 	font-size: 2rem;
+	font-style: italic;
 }
 
 .condensed {
-	font-family: "Akzidenz-Grotesk Condensed BQ";
+	font-family: "Akzidenz-GroteskCondensedBQ";
+	font-style: normal;
 	// letter-spacing: -0.4px;
 }

@@ -21,10 +21,11 @@ nav {
 			cursor: pointer;
 
 			a {
+				padding-top: 5px;
 				display: block;
 				color: #fff;
 				text-decoration: none;
-				opacity: 0.5;
+				opacity: 0.8;
 				transition: all 150ms ease-in;
 				&:hover {
 					opacity: 1;

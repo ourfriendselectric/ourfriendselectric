@@ -3,7 +3,7 @@ $(document).ready(function() {
       //Navigation
       // menu: '#menu',
       // lockAnchors: false,
-      anchors:['firstPage', 'secondPage'],
+      // anchors:['firstPage', 'secondPage'],
       // navigation: false,
       // navigationPosition: 'right',
       // navigationTooltips: ['firstSlide', 'secondSlide'],
@@ -17,7 +17,7 @@ $(document).ready(function() {
       // autoScrolling: true,
       // fitToSection: true,
       // fitToSectionDelay: 1000,
-      scrollBar: true,
+      // scrollBar: true,
       // easing: 'easeInOutCubic',
       // easingcss3: 'ease',
       // loopBottom: false,
@@ -42,11 +42,11 @@ $(document).ready(function() {
       //Accessibility
       // keyboardScrolling: true,
       // animateAnchor: true,
-      recordHistory: true,
+      // recordHistory: true,
 
       //Design
       // controlArrows: true,
-      verticalCentered: false,
+      // verticalCentered: false,
       // sectionsColor : ['#ccc', '#fff'],
       // paddingTop: '3em',
       // paddingBottom: '10px',
@@ -79,6 +79,16 @@ $(document).ready(function() {
     $('.contact').addClass('active');
   });
 
+  $( "#overlay" ).click(function(event) {
+    hideContact(event);
+  });
+
+  $( "#close" ).click(function(event) {
+    hideContact(event);
+  });
+});
+
+$(window).load(function(){
   $( ".layout-one" ).each(function(index, element) {
     layoutOneImageOneHeight(element);
   });
@@ -92,6 +102,13 @@ $(document).ready(function() {
   });
 });
 
+
+function hideContact(e) {
+    e.preventDefault();
+    $('#overlay').removeClass('active');
+    $('.contact').removeClass('active');
+}
+
 function layoutOneImageOneHeight(section) {
   topHeight = $(section).find('.top .left').height();
   introHeight = $(section).find('.top .left .intro').outerHeight();
@@ -102,9 +119,13 @@ function layoutOneImageOneHeight(section) {
 
 function layoutThreeImageOneHeight(section) {
   leftHeight = $(section).find('.left').height();
+  console.log(leftHeight);
   introHeight = $(section).find('.left .intro').outerHeight();
+  console.log(introHeight);
   padding = parseInt($(section).find('.left .intro').css('padding'));
+  console.log(padding);
   imageOneHeight = leftHeight - introHeight - (padding * 2);
+  console.log(imageOneHeight);
   $(section).find('.left .image-one').height(imageOneHeight);
 }
 

@@ -1,6 +1,3 @@
-$imageGap: 10px;
-$collageBorder: 40px;
-
 .project {
 
   .collage  {
@@ -12,44 +9,6 @@ $collageBorder: 40px;
       padding: ($collageBorder - ($imageGap / 2));
       width: 50%;
       height: 100%;
-    }
-
-    .intro {
-      float: left;
-      background: #fff;
-      padding: $imageGap / 2;
-      width: 100%;
-      hr {
-        padding: 0;
-        margin: 0;
-        background: #000;
-        border: none;
-        height: 1px;
-      }
-      h2 {
-        margin: 0 0 5px 0;
-        font-style: italic;
-        font-weight: 100;
-        border-bottom: 4px solid #000;
-        text-transform: lowercase;
-        padding: 5px 0;
-        line-height: 1.2;
-        font-size: 34px;
-        @media (min-width: $screen-sm-min) {
-          font-size: 24px;
-        }
-        @media (min-width: $screen-md-min) {
-          font-size: 26px;
-        }
-        @media (min-width: $screen-lg-min) {
-          font-size: 30px;
-        }
-      }
-
-      p {
-        text-transform: uppercase;
-        font-size: 2.2rem;
-      }
     }
 
     div[class^="image-"] {
