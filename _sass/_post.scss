@@ -2,13 +2,16 @@
 
   .collage  {
     float: left;
+
     padding: $collageBorder ($collageBorder / 2);
     width: 100%;
-    height: 50%;
+    height: 40%;
+    transform: translateY(0%);
     @media (min-width: $screen-sm-min) {
       padding: ($collageBorder - ($imageGap / 2));
       width: 50%;
       height: 100%;
+      transform: translateY(0%);
     }
 
     div[class^="image-"] {
@@ -126,11 +129,14 @@
     background-size: cover;
     background-position: center center;
     float: left;
+    
     width: 100%;
-    height: 50%;
+    height: 60%;
+    transform: translateY(-0%);
     @media (min-width: $screen-sm-min) {
       width: 50%;
       height: 100%;
+      transform: translateY(0%);
     }
   }
 }

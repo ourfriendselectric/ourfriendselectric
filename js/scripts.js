@@ -73,22 +73,49 @@ $(document).ready(function() {
       // onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
   });
 
+  // Show the cotnact form
   $( "#contact" ).click(function(event) {
     event.preventDefault();
     $('#overlay').addClass('active');
     $('.contact').addClass('active');
   });
 
+  // Hide the contact form when the overlay is clicked
   $( "#overlay" ).click(function(event) {
     hideContact(event);
   });
-
+  // Also close it when you click the cross
   $( "#close" ).click(function(event) {
     hideContact(event);
   });
 });
 
+// On the load, resize dynamic images so fill the screen
 $(window).load(function(){
+  resizeImagesWithinLayout();
+});
+// On the resize of the window, resize dynamic images so fill the screen
+var rtime;
+var timeout = false;
+var delta = 300;
+$(window).resize(function() {
+    rtime = new Date();
+    if (timeout === false) {
+        timeout = true;
+        setTimeout(resizeEnd, delta);
+    }
+});
+
+function resizeEnd() {
+    if (new Date() - rtime < delta) {
+        setTimeout(resizeEnd, delta);
+    } else {
+        timeout = false;
+        resizeImagesWithinLayout();
+    }               
+}
+
+function resizeImagesWithinLayout() {
   $( ".layout-one" ).each(function(index, element) {
     layoutOneImageOneHeight(element);
   });
@@ -100,8 +127,7 @@ $(window).load(function(){
   $( ".layout-three" ).each(function(index, element) {
     layoutThreeImageOneHeight(element);
   });
-});
-
+}
 
 function hideContact(e) {
     e.preventDefault();
