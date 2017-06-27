@@ -1,18 +1,13 @@
 ---
 layout: default
 ---
+<section class="hero section">
+  <img src="/images/our-friends-electric.png" class="logo" />
+  <h1 class="sr-only">Our Friends Electric</h1>
+</section>
 
-<div id="fullpage">
-
-  <section class="hero section">
-    <img src="/images/our-friends-electric.png" class="logo" />
-    <h1 class="sr-only">Our Friends Electric</h1>
-  </section>
-
-  {% for project in site.projects %}
-    {% if project.homepage == true %}
-      {{ project }}
-    {% endif %}
-  {% endfor %}
-
-</div>
+{% for project in site.projects %}
+  {% if project.homepage == true %}
+    {{ project }}
+  {% endif %}
+{% endfor %}

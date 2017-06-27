@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#fullpage').fullpage({
+  // $('#fullpage').fullpage({
       //Navigation
       // menu: '#menu',
       // lockAnchors: false,
@@ -71,9 +71,9 @@ $(document).ready(function() {
       // afterResponsive: function(isResponsive){},
       // afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
       // onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
-  });
+  // });
 
-  // Show the cotnact form
+  // Show the contact form
   $( "#contact" ).click(function(event) {
     event.preventDefault();
     $('#overlay').addClass('active');
@@ -92,7 +92,7 @@ $(document).ready(function() {
 
 // On the load, resize dynamic images so fill the screen
 $(window).load(function(){
-  resizeImagesWithinLayout();
+  resizeFeatureImage();
 });
 // On the resize of the window, resize dynamic images so fill the screen
 var rtime;
@@ -111,21 +111,31 @@ function resizeEnd() {
         setTimeout(resizeEnd, delta);
     } else {
         timeout = false;
-        resizeImagesWithinLayout();
+        resizeFeatureImage();
     }               
 }
 
-function resizeImagesWithinLayout() {
-  $( ".layout-one" ).each(function(index, element) {
-    layoutOneImageOneHeight(element);
-  });
+function resizeFeatureImage() {
+  $( ".project" ).each( function(index, element) {
+    
+    feature = $(element).find('.feature');
+    intro = $(element).find('.intro');
+    collage = $(element).find('.collage');
 
-  $( ".layout-two" ).each(function(index, element) {
-    layoutOneImageOneHeight(element);
-  });
+    featureHeight = parseInt(feature.width());
+    collageHeight = parseInt(collage.width());
+    introHeight = parseInt(intro.height());
 
-  $( ".layout-three" ).each(function(index, element) {
-    layoutThreeImageOneHeight(element);
+    console.log(featureHeight);
+    console.log(collageHeight);
+    console.log(introHeight);
+
+    collageMarginTop = featureHeight - collageHeight - introHeight
+
+    feature.height(featureHeight);
+    collage.height(collageHeight);
+    collage.css('margin-top', collageMarginTop);
+    
   });
 }
 
@@ -133,26 +143,6 @@ function hideContact(e) {
     e.preventDefault();
     $('#overlay').removeClass('active');
     $('.contact').removeClass('active');
-}
-
-function layoutOneImageOneHeight(section) {
-  topHeight = $(section).find('.top .left').height();
-  introHeight = $(section).find('.top .left .intro').outerHeight();
-  padding = parseInt($(section).find('.top .left .intro').css('padding'));
-  imageOneHeight = topHeight - introHeight - (padding * 2);
-  $(section).find('.top .image-one').height(imageOneHeight);
-}
-
-function layoutThreeImageOneHeight(section) {
-  leftHeight = $(section).find('.left').height();
-  console.log(leftHeight);
-  introHeight = $(section).find('.left .intro').outerHeight();
-  console.log(introHeight);
-  padding = parseInt($(section).find('.left .intro').css('padding'));
-  console.log(padding);
-  imageOneHeight = leftHeight - introHeight - (padding * 2);
-  console.log(imageOneHeight);
-  $(section).find('.left .image-one').height(imageOneHeight);
 }
 
 function slideshow(images) {
