@@ -119,6 +119,7 @@ function resizeFeatureImage() {
   $( ".project" ).each( function(index, element) {
     
     feature = $(element).find('.feature');
+    details = $(element).find('.details');
     intro = $(element).find('.intro');
     collage = $(element).find('.collage');
 
@@ -133,8 +134,9 @@ function resizeFeatureImage() {
     collageMarginTop = featureHeight - collageHeight - introHeight
 
     feature.height(featureHeight);
+    details.height(featureHeight);
     collage.height(collageHeight);
-    collage.css('margin-top', collageMarginTop);
+    // collage.css('margin-top', collageMarginTop);
     
   });
 }
