@@ -74,6 +74,15 @@ $(document).ready(function() {
   // });
 
   // Show the contact form
+  $( "#caret" ).click(function(event) {
+    event.preventDefault();
+    target = $ (this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(target).offset().top
+    }, 200);
+  });
+
+  // Show the contact form
   $( "#contact" ).click(function(event) {
     event.preventDefault();
     $('#overlay').addClass('active');
