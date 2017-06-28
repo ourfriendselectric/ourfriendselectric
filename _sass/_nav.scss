@@ -5,6 +5,7 @@ nav {
 	left: 20px;
 	top: 20px;
     @media (min-width: $screen-md-min) {
+		left: auto;
 		right: 20px;
 		top: 20px;
     }
