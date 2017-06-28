@@ -4,8 +4,21 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 heroes: 
-  - image_path: https://source.unsplash.com/category/people
-  - image_path: https://source.unsplash.com/category/buildings
-  - image_path: https://source.unsplash.com/category/nature
-  - image_path: https://source.unsplash.com/category/technology
+  - image_path: /images/hero/andrei-bocan-28648-2.jpg
+  - image_path: /images/hero/brooke-lark-209712.jpg
+  - image_path: /images/hero/bruno-martins-25865.jpg
+  - image_path: /images/hero/clem-onojeghuo-179397.jpg
+  - image_path: /images/hero/clem-onojeghuo-97709.jpg
+  - image_path: /images/hero/diomari-madulara-110583.jpg
+  - image_path: /images/hero/gabriel-izgi-173852.jpg
+  - image_path: /images/hero/gabriel-santiago-22198.jpg
+  - image_path: /images/hero/ian-dooley-281860.jpg
+  - image_path: /images/hero/joe-gardner-134729.jpg
+  - image_path: /images/hero/lance-asper-160766.jpg
+  - image_path: /images/hero/mateus-bassan-242163.jpg
+  - image_path: /images/hero/mr-cup-fabien-barral-86068.jpg
+  - image_path: /images/hero/nick-hidalgo-194770.jpg
+  - image_path: /images/hero/patrick-fore-23064.jpg
+  - image_path: /images/hero/paulette-wooten-223050.jpg
+  - image_path: /images/hero/tracy-thomas-56810.jpg
 ---
