@@ -8,3 +8,27 @@
     clip: rect(0,0,0,0);
     border: 0;
 }
+
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.table {
+  display: table;
+}
+
+.table-row {
+  display: table-row;
+}
+
+
+.table-cell {
+  display: table-cell;
+}

@@ -1,0 +1,175 @@
+#content {
+  padding-top: 60px;
+  @media (min-width: $screen-md-min) {
+    padding-top: 0;
+  }
+}
+
+.project {
+  position: relative;
+
+  .details {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 30px 0 $imageGap 0;
+    @media (min-width: $screen-md-min) {
+      width: 40%;
+      padding: 30px 0 30px 30px;
+    }
+  }
+  
+  .feature {
+    float: left;
+    height: 100%;
+    
+    width: 100%;
+    padding: 0px;
+    margin-bottom: ($imageGap / 2);
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: $imageGap;
+    }
+    @media (min-width: $screen-md-min) {
+      width: 60%;
+      padding: 30px;
+      margin-bottom: 0px;
+    }
+
+    .inner {
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+    }
+  }
+
+  .collage  {
+    width: 100%;
+    vertical-align: bottom;
+
+
+    padding: 0 5px;
+    display: block;
+    @media (min-width: $screen-md-min) {
+      padding: 0;
+      display: table-cell;
+    }
+
+    div[class^="image-"] {
+      float: left;
+      
+      height: 50%;
+      width: 50%;
+      @media (min-width: $screen-sm-min) {
+        height: 25%;
+        width: 25%;
+      }
+      @media (min-width: $screen-md-min) {
+        height: 50%;
+        width: 50%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .inner {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      &.image-one {
+        padding: ($imageGap / 2);
+        @media (min-width: $screen-sm-min) {
+          padding: 0 ($imageGap / 2) 0 ($imageGap / 2);
+        }
+        @media (min-width: $screen-md-min) {
+          padding: 0 ($imageGap / 2) ($imageGap / 2) 0;
+        }
+      }
+      &.image-two {
+        padding: ($imageGap / 2);
+        @media (min-width: $screen-sm-min) {
+          padding: 0 ($imageGap / 2) 0 ($imageGap / 2);
+        }
+        @media (min-width: $screen-md-min) {
+          padding: 0 0 ($imageGap / 2) ($imageGap / 2);
+        }
+      }
+      &.image-three {
+        padding: ($imageGap / 2);
+        @media (min-width: $screen-sm-min) {
+          padding: 0 ($imageGap / 2) 0 ($imageGap / 2);
+        }
+        @media (min-width: $screen-md-min) {
+          padding: ($imageGap / 2) ($imageGap / 2) 0 0;
+        }
+      }
+      &.image-four {
+        padding: ($imageGap / 2);
+        @media (min-width: $screen-sm-min) {
+          padding: 0 ($imageGap / 2) 0 ($imageGap / 2);
+        }
+        @media (min-width: $screen-md-min) {
+          padding: ($imageGap / 2) 0 0 ($imageGap / 2);
+        }
+      }
+    }
+
+    .top {
+      height: 100%;
+      @media (min-width: $screen-sm-min) {
+        height: 50%;
+      }
+
+      .left {
+        height: 100%;
+        float: left;
+        width: 100%;
+        @media (min-width: $screen-md-min) {
+          width: 50%;
+        }
+
+        .image-one {
+          // height: 70%;
+        }
+      }
+      .right {
+        width: 50%;
+        height: 100%;
+        float: left;
+        display: none;
+        @media (min-width: $screen-md-min) {
+          display: block;
+        }
+      }
+    }
+
+    .bottom {
+      height: 50%;
+      display: none;
+      @media (min-width: $screen-sm-min) {
+        display: block;
+      }
+
+      .left {
+        height: 100%;
+        float: left;
+        width: 100%;
+        @media (min-width: $screen-sm-min) {
+          width: 50%;
+        }
+      }
+      .right {
+        width: 50%;
+        height: 100%;
+        float: left;
+        display: none;
+        @media (min-width: $screen-sm-min) {
+          display: block;
+        }
+      }
+    }
+  }
+}
