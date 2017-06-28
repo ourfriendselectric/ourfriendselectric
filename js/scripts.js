@@ -127,16 +127,23 @@ function resizeFeatureImage() {
     collageHeight = parseInt(collage.width());
     introHeight = parseInt(intro.height());
 
-    console.log(featureHeight);
-    console.log(collageHeight);
-    console.log(introHeight);
+    if ($(window).width() > 922) {
+      details.height(featureHeight);
+      collage.height(collageHeight);
 
-    collageMarginTop = featureHeight - collageHeight - introHeight
+      // Move the collage below the feature
+      collage.detach().appendTo($(element).find('.desktop-collage'));
+    } else {
+      details.removeAttr('style');
+      collage.removeAttr('style');
+      singleImageHeight = collage.find('.image-one').width();
+      collage.children().height(singleImageHeight);
 
+      // Move the collage below the feature
+      collage.detach().appendTo($(element).find('.mobile-collage'));
+    }
+    
     feature.height(featureHeight);
-    details.height(featureHeight);
-    collage.height(collageHeight);
-    // collage.css('margin-top', collageMarginTop);
     
   });
 }

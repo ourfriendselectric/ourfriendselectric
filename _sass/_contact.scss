@@ -9,6 +9,13 @@
   border-radius: 1px;
   z-index: 1000;
 
+  .intro {
+    display: none;
+    @media (min-width: $screen-md-min) {
+      display: inline-block;
+    }
+  }
+
   h3 {
     margin-top: 0;
   }

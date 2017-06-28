@@ -1,8 +1,13 @@
 nav {
 	position: fixed;
-	right: 20px;
-	top: 20px;
 	z-index: 999;
+
+	left: 20px;
+	top: 20px;
+    @media (min-width: $screen-md-min) {
+		right: 20px;
+		top: 20px;
+    }
 
 	ul {
 		list-style: none;
