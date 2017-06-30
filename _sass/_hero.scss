@@ -55,9 +55,6 @@
 
 		img {
 			width: 30px;
-			@media (min-width: $screen-sm-min) {
-				width: 40px;
-			}
 		}
 	}
 }
