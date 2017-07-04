@@ -103,6 +103,7 @@ $(document).ready(function() {
 $(window).load(function(){
   resizeFeatureImage();
 });
+
 // On the resize of the window, resize dynamic images so fill the screen
 var rtime;
 var timeout = false;
@@ -169,4 +170,14 @@ function slideshow(images) {
   var random = Math.floor(Math.random() * (max - min + 1)) + min;
   var image = "url(" + images[random] + ")";
   $('.hero').css('background-image', image);
+
+  random++;
+  if (random > max) {
+    random = min;
+  }
+  image = "url(" + images[random] + ")";
+  $('#ofe-feature .inner').css('background-image', image);
 }
+
+
+

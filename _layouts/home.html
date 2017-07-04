@@ -9,8 +9,35 @@ layout: default
   </a>
 </section>
 
+<article class="project section clearfix" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="details table">
+
+    {% include intro.html 
+     client='Our Friends Electric' 
+     project='' 
+     description='Lorem Ipsum'
+    %}
+
+    <div class="table-row desktop-collage">
+      <div class="collage table-cell">
+        <div class="image-one"><div class="inner" style="background-image: url('/uploads/OFE-2.jpg');"></div></div>
+        <div class="image-two"><div class="inner" style="background-image: url('/uploads/OFE-3.jpg');"></div></div>
+        <div class="image-three"><div class="inner" style="background-image: url('/uploads/OFE-4.jpg');"></div></div>
+        <div class="image-four"><div class="inner" style="background-image: url('/uploads/OFE-5.jpg');"></div></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="ofe-feature" class="feature"><div class="inner" style=""></div></div>
+  <div class="mobile-collage"></div>
+
+</article>
+
 <div id="content">
-  {% for project in site.projects %}
+  {% assign items = site.projects | sort: 'order' %}
+  {% for project in items %}
     {% if project.homepage == true %}
       {{ project }}
     {% endif %}

@@ -37,7 +37,7 @@ sass:
   
 collections:
   projects:
-    output: true
+    output: false
     permalink: /:name
   
 defaults:
