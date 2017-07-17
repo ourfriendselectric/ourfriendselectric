@@ -97,10 +97,7 @@ $(document).ready(function() {
   $( "#close" ).click(function(event) {
     hideContact(event);
   });
-});
 
-// On the load, resize dynamic images so fill the screen
-$(window).load(function(){
   resizeFeatureImage();
 });
 
@@ -127,33 +124,15 @@ function resizeEnd() {
 
 function resizeFeatureImage() {
   $( ".project" ).each( function(index, element) {
-    
-    feature = $(element).find('.feature');
+
     details = $(element).find('.details');
-    intro = $(element).find('.intro');
     collage = $(element).find('.collage');
 
-    featureHeight = parseInt(feature.width());
-    collageHeight = parseInt(collage.width());
-    introHeight = parseInt(intro.height());
-
     if ($(window).width() > 922) {
-      details.height(featureHeight);
-      collage.height(collageHeight);
-
-      // Move the collage below the feature
       collage.detach().appendTo($(element).find('.desktop-collage'));
     } else {
-      details.removeAttr('style');
-      collage.removeAttr('style');
-      singleImageHeight = collage.find('.image-one').width();
-      collage.children().height(singleImageHeight);
-
-      // Move the collage below the feature
       collage.detach().appendTo($(element).find('.mobile-collage'));
     }
-    
-    feature.height(featureHeight);
     
   });
 }
@@ -175,8 +154,9 @@ function slideshow(images) {
   if (random > max) {
     random = min;
   }
-  image = "url(" + images[random] + ")";
-  $('#ofe-feature .inner').css('background-image', image);
+  image = images[random].replace("images/hero", "images/hero/square");
+  $('#ofe-feature .inner img').attr('src', image)
+  // $('#ofe-feature .inner img').css('background-image', image);
 }
 
 
