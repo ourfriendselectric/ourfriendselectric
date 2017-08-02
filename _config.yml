@@ -16,9 +16,10 @@
 title: Our Friends Electric - Live Engagement Specialists
 email: hello@ourfriendselectric.com.au
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We produce events. But we're more than just an event management company. 
+  At our friends electric we build memorable and immersive brand experiences, 
+  delivering high engagement for brands, big or small, 
+  across the Asia Pacific region.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.ourfriendselectric.com.au" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
