@@ -1,33 +1,31 @@
 ---
 layout: default
 ---
-<section class="hero section">
-  <img src="{{ site.github.url }}/images/our-friends-electric.png" class="logo" />
-  <h1 class="sr-only">Our Friends Electric</h1>
-  <a href="#content" class="caret" id="caret">
-    <img src="{{ site.github.url }}/images/caret.svg" />
-  </a>
-</section>
-
-<article class="project section clearfix" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <div class="details table">
-
-    {% include intro.html 
-     client="Our Friends Electric"
-     project=""
-     description="<p>We produce events but we're more than just an event management company.</p><p>At Our Friends Electric we excel in both insights and strategy, providing industry first solutions where environment, experience and the digital world meet.</p><p>Real world solutions where straight forward event management won't cut it.</p><p>The team comprises of live engagement specialists and environmental designers who love what they do, delivering for brands that understand that credibility is everything.</p><p>If you would like to start a conversation with us and your audience please contact us.</p>"
-    %}
-
-  </div>
-
-  <div id="ofe-feature" class="feature">
-    <div class="inner"><img src="" class="img-responsive"/></div>
-  </div>
-
-</article>
+{% 
+  include hero.html 
+    active="home"
+%}
 
 <div id="content">
+  <article class="project section clearfix" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="details table">
+
+      {% 
+        include intro.html 
+          client="Our Friends Electric"
+          project=""
+          description="<p>We produce events but we're more than just an event management company.</p><p>At Our Friends Electric we excel in both insights and strategy, providing industry first solutions where environment, experience and the digital world meet.</p><p>Real world solutions where straight forward event management won't cut it.</p><p>The team comprises of live engagement specialists and environmental designers who love what they do, delivering for brands that understand that credibility is everything.</p><p>If you would like to start a conversation with us and your audience please contact us.</p>"
+      %}
+
+    </div>
+
+    <div id="ofe-feature" class="feature">
+      <div class="inner"><img src="" class="img-responsive"/></div>
+    </div>
+
+  </article>
+
   {% assign items = site.projects | sort: 'order' %}
   {% for project in items %}
     {% if project.homepage == true %}

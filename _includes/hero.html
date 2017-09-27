@@ -1,0 +1,13 @@
+<section class="hero section {% if include.category == true %}category{% endif %}">
+	<div class="center">
+		<img src="{{ site.url }}{{ site.baseurl }}/images/our-friends-electric.png" class="logo" />
+		<h1 class="sr-only">Our Friends Electric</h1>
+		{% 
+		  include nav.html 
+		    active=include.active
+		%}
+	</div>
+	<a href="#content" class="caret" id="caret">
+		<img src="{{ site.url }}{{ site.baseurl }}/images/caret.svg" />
+	</a>
+</section>

@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
+{% 
+  include hero.html 
+    active=page.active
+    category=true
+%}
 
-<div id="fullpage">
-
-  <section class="hero section">
-    <div class="logo category">
-      <h1>{{ page.category }}</h1>
-    </div>
-  </section>
+<div id="content">
 
   {% for project in site.projects %}
     {% for category in project.categories %}

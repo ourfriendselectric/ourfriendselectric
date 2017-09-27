@@ -8,12 +8,18 @@
 	position: relative;
 	z-index: 75;
 
-	.logo {
+	&.category {
+		// height: 75%;
+	}
+
+	.center {
 		margin: 0 auto 0 auto;
 		position: relative;
 		top: 50%;
 		transform: translateY(-50%);
+	}
 
+	.logo {
 		height: 200px;
 		width: 200px;
 		@media (min-width: $screen-lg-min) {

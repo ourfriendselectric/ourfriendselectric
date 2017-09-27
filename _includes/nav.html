@@ -1,0 +1,16 @@
+<nav>
+	<ul>
+		<li class="{% if include.active == 'home' %}active{% endif %}">
+			<a href="{{ site.url }}{{ site.baseurl }}">Featured</a>
+		</li>
+		<li class="{% if include.active == 'cat1' %}active{% endif %}">
+			<a href="{{ site.url }}{{ site.baseurl }}/cat1">Cat 1</a>
+		</li>
+		<li class="{% if include.active == 'cat2' %}active{% endif %}">
+			<a href="{{ site.url }}{{ site.baseurl }}/cat2">Cat 2</a>
+		</li>
+		<li class="{% if include.active == 'cat3' %}active{% endif %}">
+			<a href="{{ site.url }}{{ site.baseurl }}/cat3">Cat 3</a>
+		</li>
+	</ul>
+</nav>
