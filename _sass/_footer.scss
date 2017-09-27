@@ -1,18 +1,31 @@
 $footer-height: 50px;
 
 footer {
-	// @extend .clearfix;
+	@extend .clearfix;
 	background:#000;
 	text-align: left;
 	width: 100%;
 	font-weight: 400;
-	height: $footer-height + 5px;
 	padding: 3px 30px 0 30px;
+    font-family: "BodoniBE", Georgia, Serif;  
+    font-style: italic;
+
+	margin-top: 10px;
+	// height: $footer-height + 55px;
+    @media (min-width: $screen-md-min) {
+		margin-top: 0;
+		height: $footer-height + 5px;
+    }
 		
 	.information {
 		float: right;
-		color: #fff;
 		line-height: $footer-height;
+		color: #fff;
+
+	    float: left;
+	    @media (min-width: $screen-md-min) {
+			float: right;
+	    }
 		ul {
 			float: right;
 			list-style: none;
@@ -32,13 +45,25 @@ footer {
 		float: left;
 		font-size: 14px;
 		margin: 0;
-		height: $footer-height;
+	    @media (min-width: $screen-sm-min) {
+			height: $footer-height;
+	    }
 		ul {
 			margin: 0;
 			padding: 0;
+		    text-align: left;
+
+		    width: 100%;
+		    @media (min-width: $screen-sm-min) {
+				width: auto;
+		    }
 			li {
+				padding: 0;
 				a {
-					line-height: $footer-height;
+					line-height: $footer-height - 10px;
+				    @media (min-width: $screen-sm-min) {
+						line-height: $footer-height;
+		    		}
 				}
 			}
 		}
