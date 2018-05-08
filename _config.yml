@@ -41,15 +41,16 @@ collections:
   projects:
     output: false
     permalink: /:name
-  
+
 defaults:
   - type: 'projects'
     values:
+      _hide_content: true
       intro:
-        client_name: Client Name
-        project_name: Project Name
+        client_name: Client Name Here
+        project_name: Project Name Here
         description_html: >
-         Description
+         Description Here
       featured_image_path: 
       images: 
         - image_path: 
