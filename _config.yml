@@ -46,8 +46,8 @@ defaults:
   - type: 'projects'
     values:
       intro:
-        client: Client Name
-        project: Project Name
+        client_name: Client Name
+        project_name: Project Name
         description_html: >
          Description
       featured_image_path: 
