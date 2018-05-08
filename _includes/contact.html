@@ -2,8 +2,11 @@
   <div class="inner">
     <div class="form">
       <h2>Get in contact</h2>
-      <p>02 8964 8509</p>
-      <p><a href="mailto:hello@ourfriendselectric.com.au">hello@ourfriendselectric.com.au</a></p>
+      <p>{{ site.phone_number }}</p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+      <h2>Address</h2>
+      <p>Level 1, 14 Vine St, Redfern NSW 2016<p>
 
       <h2>Send us a message</h2>
       <form action="https://formspree.io/hello@ourfriendselectric.com.au" method="POST">

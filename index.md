@@ -3,6 +3,8 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+intro_html: >
+ <p>We produce events but we're more than just an event management company.</p><p>At Our Friends Electric we excel in both insights and strategy, providing industry first solutions where environment, experience and the digital world meet.</p><p>Real world solutions where straight forward event management just won't cut it.</p><p>The team comprises of live engagement specialists and environmental designers who love what they do, delivering for brands that understand that credibility is everything.</p><p>If you would like to start a conversation with us and your audience please contact us.</p>
 heroes: 
   - image_path: /images/hero/andrei-bocan-28648-2.jpg
   - image_path: /images/hero/brooke-lark-209712.jpg

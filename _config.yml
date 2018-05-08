@@ -22,8 +22,9 @@ description: > # this means to ignore newlines until "baseurl:"
   across the Asia Pacific region.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.ourfriendselectric.com.au" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  
+instagram_link: https://www.instagram.com/ourfriendselectric 
+facebook_link: https://www.facebook.com/yourfriendselectric
+phone_number: +61 415 347 986  
 
 # Build settings
 markdown: kramdown
@@ -40,15 +41,16 @@ collections:
   projects:
     output: false
     permalink: /:name
-  
+
 defaults:
   - type: 'projects'
     values:
+      _hide_content: true
       intro:
-        client: Client Name
-        project: Project Name
+        client_name: Client Name Here
+        project_name: Project Name Here
         description_html: >
-         Description
+         Description Here
       featured_image_path: 
       images: 
         - image_path: 
