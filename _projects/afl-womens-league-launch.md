@@ -14,8 +14,8 @@ intro:
     ILLUSTRATION,&nbsp;</p>
 featured_image_path: /uploads/afl-womens-008.jpg
 images:
-  - image_path: /uploads/APRA-2.jpg
-  - image_path: /uploads/APRA-3.jpg
-  - image_path: /uploads/APRA-4.jpg
-  - image_path: /uploads/APRA-5.jpg
+  - image_path: /uploads/afl-womens-012-jpg.png
+  - image_path: /uploads/afl-womens-009-1.jpg
+  - image_path: /uploads/afl-womens-010.jpg
+  - image_path: /uploads/afl-womens-011-1.jpg
 ---
