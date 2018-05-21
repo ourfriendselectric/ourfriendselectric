@@ -5,9 +5,12 @@ homepage: false
 order: 99999999
 _hide_content: true
 intro:
-  client_name: Client Name
-  project_name: Project Name
-  description_html: <p>Description</p>
+  client_name: Sesión Tequila
+  project_name: Australian Launch
+  description_html: >-
+    <p>POINT PIPER - SYDNEY</p><p>Live Performances by GUY SEBASTIAN &amp;
+    YOLANDA BE COOL</p><p>concept development, INVITATION DESIGN Event &amp;
+    talent management</p>
 featured_image_path: /uploads/APRA-HERO.jpg
 images:
   - image_path: /uploads/APRA-2.jpg
