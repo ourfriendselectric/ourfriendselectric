@@ -11,7 +11,7 @@ intro:
     <p>LAUNCHING SUMMER IN TRUE BRAZILIAN STYLE</p><p>concept development,
     Lighting Design, Event management, talent management</p><p>Sydney, Melbourne
     &amp; Gold Coast&nbsp;</p>
-featured_image_path:
+featured_image_path: /uploads/havaianas-summer-006-1.jpg
 images:
   - image_path: /uploads/havaianas-summer-013.jpeg
   - image_path: /uploads/havaianas-summer-001.jpg
