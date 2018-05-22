@@ -12,10 +12,10 @@ intro:
     anderson</p><p>CREATIVE DIRECTION, SET DESIGN, ARTWORK, Event &amp; SIGNAGE
     MANAGEMENT</p><p>planetshakers - Melbourne,&nbsp; bay 25, carriageworks -
     Sydney</p>
-featured_image_path: /uploads/APRA-HERO.jpg
+featured_image_path: /uploads/fb-iq-mobile-moves-005.jpg
 images:
-  - image_path: /uploads/APRA-2.jpg
-  - image_path: /uploads/APRA-3.jpg
-  - image_path: /uploads/APRA-4.jpg
-  - image_path: /uploads/APRA-5.jpg
+  - image_path: /uploads/fb-iq-mobile-moves-001.jpg
+  - image_path: /uploads/fb-iq-mobile-moves-003.jpg
+  - image_path: /uploads/fb-iq-mobile-moves-002.jpg
+  - image_path: /uploads/fb-iq-mobile-moves-004.jpg
 ---
