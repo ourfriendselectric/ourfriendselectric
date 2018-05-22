@@ -14,8 +14,8 @@ intro:
     AUSTRALIA</p>
 featured_image_path: /uploads/emc-1.jpg
 images:
-  - image_path: /uploads/APRA-2.jpg
-  - image_path: /uploads/APRA-3.jpg
-  - image_path: /uploads/APRA-4.jpg
-  - image_path: /uploads/APRA-5.jpg
+  - image_path: /uploads/emc-001.jpg
+  - image_path: /uploads/emc-004-1.jpg
+  - image_path: /uploads/emc-008.jpg
+  - image_path: /uploads/emc-009.jpg
 ---
