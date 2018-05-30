@@ -5,9 +5,9 @@ homepage: false
 order: 99999999
 _hide_content: true
 intro:
-  client_name: Client Name
+  client_name: Singapore tourism board
   project_name: Project Name
-  description_html: <p>Description</p>
+  description_html:
 featured_image_path: /uploads/APRA-HERO.jpg
 images:
   - image_path: /uploads/APRA-2.jpg
