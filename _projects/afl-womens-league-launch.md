@@ -12,10 +12,10 @@ intro:
     DEVELOPMENT FOR THE LAUNCH OF THE AFL WOMEN'S LEAGUE&nbsp;</p><p>CONCEPT
     DEVELOPMENT, CREATIVE DIRECTION, SHOOT PRODUCTION, ART DIRECTION,
     ILLUSTRATION,&nbsp;</p>
-featured_image_path: /uploads/afl-womens-008.jpg
+featured_image_path: /uploads/afl-womens-008-1000x1000px.jpg
 images:
-  - image_path: /uploads/afl-womens-012-jpg.png
-  - image_path: /uploads/afl-womens-009-1.jpg
-  - image_path: /uploads/afl-womens-010.jpg
-  - image_path: /uploads/afl-womens-011-1.jpg
+  - image_path: /uploads/afl-womens-012-350x350px.jpg
+  - image_path: /uploads/afl-womens-009-350x350px.jpg
+  - image_path: /uploads/afl-womens-010-350x350px.jpg
+  - image_path: /uploads/afl-womens-011-2.jpg
 ---
