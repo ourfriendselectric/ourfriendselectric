@@ -14,7 +14,7 @@ intro:
 featured_image_path: /uploads/republic-records-008-1000x1000px.jpg
 images:
   - image_path: /uploads/republic-records-007-350x350px.jpg
-  - image_path:
+  - image_path: /uploads/republic-records-001-350x350px-1.jpg
   - image_path: /uploads/republic-records-001-350x350px.jpg
   - image_path: /uploads/republic-records-003-350x350px.jpg
 ---
