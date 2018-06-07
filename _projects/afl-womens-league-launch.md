@@ -17,5 +17,5 @@ images:
   - image_path: /uploads/afl-womens-012-350x350px.jpg
   - image_path: /uploads/afl-womens-009-350x350px.jpg
   - image_path: /uploads/afl-womens-010-350x350px.jpg
-  - image_path: /uploads/afl-womens-011-2.jpg
+  - image_path: /uploads/afl-womens-011-350x350px.jpg
 ---
