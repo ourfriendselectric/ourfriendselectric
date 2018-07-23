@@ -7,8 +7,11 @@ _hide_content: true
 intro:
   client_name: Client Name
   project_name: Project Name
-  description_html: <p>Description</p>
-featured_image_path: /uploads/APRA-HERO.jpg
+  description_html: >-
+    <p>Intimate breakfast with Eva chen for fashion industry in
+    melbourne</p><p>Event identity, concept development, stage design, styling,
+    ART DIRECTION, EVENT MANAGEMENT</p><p>AU 79 - MELBOURNE</p>
+featured_image_path: /uploads/ecb-8.jpg
 images:
   - image_path: /uploads/APRA-2.jpg
   - image_path: /uploads/APRA-3.jpg
