@@ -10,8 +10,8 @@ intro:
   description_html: <p>Description</p>
 featured_image_path: /uploads/mbfw5.jpg
 images:
-  - image_path: /uploads/img-0506-1.jpg
-  - image_path: /uploads/img-0505-1.jpg
-  - image_path: /uploads/img-0508.jpg
-  - image_path: /uploads/img-0507.jpg
+  - image_path: /uploads/mbfw3.jpg
+  - image_path: /uploads/mbfw1.jpg
+  - image_path: /uploads/mbfw2.jpg
+  - image_path: /uploads/mbfa-11.jpg
 ---
