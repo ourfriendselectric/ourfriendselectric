@@ -8,10 +8,10 @@ intro:
   client_name: Client Name
   project_name: Project Name
   description_html: <p>Description</p>
-featured_image_path: /uploads/APRA-HERO.jpg
+featured_image_path: /uploads/arnotts2.jpg
 images:
-  - image_path: /uploads/APRA-2.jpg
-  - image_path: /uploads/APRA-3.jpg
-  - image_path: /uploads/APRA-4.jpg
-  - image_path: /uploads/APRA-5.jpg
+  - image_path: /uploads/img-1911.JPG
+  - image_path: /uploads/arnotts3.jpg
+  - image_path: /uploads/arnotts1.jpg
+  - image_path: /uploads/arnotts4.jpg
 ---
