@@ -13,7 +13,7 @@ intro:
     design &amp; build, ART DIRECTION, video production, styling, EVENT
     MANAGEMENT</p><p>CARRIAGEWORKS SYDNEY - SYDNEY &amp; Planetshakers -
     melbourne</p>
-featured_image_path: /uploads/APRA-HERO.jpg
+featured_image_path: /uploads/bwap2-1.jpg
 images:
   - image_path: /uploads/bwap3.jpg
   - image_path: /uploads/bwap2.jpg
