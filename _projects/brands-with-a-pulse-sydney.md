@@ -18,5 +18,5 @@ images:
   - image_path: /uploads/bwap3.jpg
   - image_path: /uploads/bwap2.jpg
   - image_path: /uploads/bwap6.jpg
-  - image_path:
+  - image_path: /uploads/bwap1.jpg
 ---
