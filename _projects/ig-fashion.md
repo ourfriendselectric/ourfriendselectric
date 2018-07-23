@@ -5,7 +5,7 @@ homepage: false
 order: 99999999
 _hide_content: true
 intro:
-  client_name: IG Fashion
+  client_name: instagram fashion
   project_name: Project Name
   description_html: >-
     <p>immersive fashion forward instagram experience &amp; workshop with Eva
