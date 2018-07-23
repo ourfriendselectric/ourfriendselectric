@@ -11,7 +11,7 @@ intro:
     <p>two day awards and gala event showcasing the top hairdressers &nbsp;in
     Australia and New Zealand&nbsp;</p><p>event production, event styling ,
     event management&nbsp;</p><p>MCC, Melbourne&nbsp;</p>
-featured_image_path: /uploads/img-0514.jpg
+featured_image_path: /uploads/hair-7.jpg
 images:
   - image_path: /uploads/hair-8.jpg
   - image_path: /uploads/hair-2.jpg
