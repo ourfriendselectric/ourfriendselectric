@@ -7,9 +7,7 @@ _hide_content: true
 intro:
   client_name: MBFWA
   project_name: Project Name
-  description_html: >-
-    <p>Mercedes Benz Fashion Week Australia live site<br />Complimentary fashion
-    show streaming, coffees ad blow dry's</p><p>Pitt St - Sydney&nbsp;</p>
+  description_html:
 featured_image_path: /uploads/mbfw5.jpg
 images:
   - image_path: /uploads/mbfw3.jpg
