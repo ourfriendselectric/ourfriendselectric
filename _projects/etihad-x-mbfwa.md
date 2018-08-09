@@ -6,7 +6,7 @@ order: 99999999
 _hide_content: true
 intro:
   client_name: Etihad
-  project_name: X MBFWA
+  project_name: MBFWA Artelier
   description_html: >-
     <p>THE ETIHAD ATELIER, CUSTOM FOIL MONOGRAMMED LUGGAGE TAG ACTIVATION AT
     MERCEDES-BENZ FASHION WEEK AUSTRALIA</p><p>CONCEPT DEVELOPMENT, ACTIVATION
