@@ -6,11 +6,11 @@ order: 99999999
 _hide_content: true
 intro:
   client_name: superga
-  project_name: at the MBFWA Hub
+  project_name: MBFWA  HUB
   description_html: >-
-    <p>CREATION OF A SUPERGA CUSTOMISATION HUB AT MBFWA</p><p>CONCEPT
-    DEVELOPMENT, EVENT &amp; LIGHTING DESIGN , CREATIVE
-    DIRECTION</p><p>CARRIAGEWORKS - SYDNEY</p>
+    <p>SUPERGA CUSTOMISATION SATION AT THE MBFWA 2018 HUB.</p><p>CONCEPT
+    DEVELOPMENT, ACTIVATION DESIGN, CREATIVE DIRECTION, EVENT
+    MANAGEMENT</p><p>CARRIAGEWORKS - SYDNEY</p>
 featured_image_path: /uploads/fashion-week-superga-hr-44-1000x1000px.jpg
 images:
   - image_path: /uploads/fashion-week-superga-hr-5-350x350px.jpg
