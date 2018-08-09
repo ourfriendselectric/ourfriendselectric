@@ -5,8 +5,8 @@ homepage: false
 order: 99999999
 _hide_content: true
 intro:
-  client_name: MBFWA
-  project_name: Project Name
+  client_name: IMG FASHION
+  project_name: MBFWA Live Site
   description_html:
 featured_image_path: /uploads/mbfw5.jpg
 images:
