@@ -6,7 +6,7 @@ order: 101
 _hide_content: true
 intro:
   client_name: "eva chen\Lbreakfast"
-  project_name: Project Name
+  project_name:
   description_html: >-
     <p>Intimate breakfast with Eva chen for fashion industry in
     melbourne</p><p>Event identity, concept development, stage design, styling,
