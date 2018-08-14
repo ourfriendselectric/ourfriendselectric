@@ -5,8 +5,8 @@ homepage: true
 order: 100
 _hide_content: true
 intro:
-  client_name: instagram fashion
-  project_name:
+  client_name: instagram
+  project_name: fashion
   description_html: >-
     <p>immersive fashion forward instagram experience &amp; workshop with Eva
     Chen for the fashion industry in Sydney</p><p>Overall creative concept
