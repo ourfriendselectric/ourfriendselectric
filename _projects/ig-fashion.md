@@ -14,8 +14,8 @@ intro:
     styling</p><p>BETA BAR - SYDNEY</p>
 featured_image_path: /uploads/ig-fashion-main.jpg
 images:
-  - image_path: /uploads/ig-fashion-3.jpg
-  - image_path: /uploads/ig-fashion-1.jpg
-  - image_path: /uploads/ig-fashion-6.jpg
+  - image_path: /uploads/ig-fashion-6-1.jpg
+  - image_path: /uploads/ig-fashion-3-1.jpg
+  - image_path: /uploads/ig-fashion-2.jpg
   - image_path: /uploads/ig-fashion-5-1.jpg
 ---
