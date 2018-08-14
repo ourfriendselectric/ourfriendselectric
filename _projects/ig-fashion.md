@@ -2,7 +2,7 @@
 layout: project
 categories:
 homepage: false
-order: 99999999
+order: 1
 _hide_content: true
 intro:
   client_name: instagram fashion
