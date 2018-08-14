@@ -5,7 +5,7 @@ homepage: true
 order: 101
 _hide_content: true
 intro:
-  client_name: "eva chen\Lbreakfast"
+  client_name: "eva chen\L breakfast"
   project_name:
   description_html: >-
     <p>Intimate breakfast with Eva chen for fashion industry in
