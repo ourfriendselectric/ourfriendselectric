@@ -1,8 +1,8 @@
 ---
 layout: project
 categories:
-homepage: false
-order: 1
+homepage: true
+order: 100
 _hide_content: true
 intro:
   client_name: instagram fashion
