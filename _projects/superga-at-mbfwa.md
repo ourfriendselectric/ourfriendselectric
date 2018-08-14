@@ -15,6 +15,6 @@ featured_image_path: /uploads/fashion-week-superga-hr-44-1000x1000px.jpg
 images:
   - image_path: /uploads/fashion-week-superga-hr-5-350x350px.jpg
   - image_path: /uploads/fashion-week-superga-hr-77-350x350px.jpg
-  - image_path: /uploads/fashion-week-superga-hr-7-350x350px.jpg
-  - image_path: /uploads/fashion-week-superga-hr-87-350x350px.jpg
+  - image_path: /uploads/fashion-week-superga-hr-87-350x350px-1.jpg
+  - image_path:
 ---
