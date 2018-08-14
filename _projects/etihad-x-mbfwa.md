@@ -11,7 +11,7 @@ intro:
     <p>THE ETIHAD ATELIER, CUSTOM FOIL MONOGRAMMED LUGGAGE TAG ACTIVATION AT
     MERCEDES-BENZ FASHION WEEK AUSTRALIA</p><p>CONCEPT DEVELOPMENT, ACTIVATION
     DESIGN, EVENT MANAGEMENT</p><p>CARRIAGEWORKS - SYDNEY</p>
-featured_image_path: /uploads/fashion-week-etihad-lr-60.jpg
+featured_image_path:
 images:
   - image_path: /uploads/fashion-week-etihad-lr-3.jpg
   - image_path: /uploads/fashion-week-etihad-lr-57.jpg
