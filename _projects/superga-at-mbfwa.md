@@ -1,8 +1,8 @@
 ---
 layout: project
 categories:
-homepage: true
-order: 400
+homepage: false
+order: 999999
 _hide_content: true
 intro:
   client_name: superga
