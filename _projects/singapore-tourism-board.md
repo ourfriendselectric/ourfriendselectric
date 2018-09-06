@@ -2,7 +2,7 @@
 layout: project
 categories:
 homepage: true
-order: 700
+order: 601
 _hide_content: true
 intro:
   client_name: Singapore tourism board
