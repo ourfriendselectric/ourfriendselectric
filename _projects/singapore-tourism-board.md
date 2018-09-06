@@ -1,8 +1,8 @@
 ---
 layout: project
 categories:
-homepage: false
-order: 99999999
+homepage: true
+order: 400
 _hide_content: true
 intro:
   client_name: Singapore tourism board
