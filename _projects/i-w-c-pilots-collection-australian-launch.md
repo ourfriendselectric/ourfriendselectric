@@ -12,7 +12,7 @@ intro:
     />PERFORMANCE BY ASTON</p><p>CREATIVE DIRECTION, INVITATION, SET &amp;
     SIGNAGE DESIGN, Event&amp; Talent Management<br /><br />ROSLYN PACKER
     THEATRE - Sydney, Australia&nbsp;</p>
-featured_image_path: /uploads/APRA-HERO.jpg
+featured_image_path: /uploads/unnamed-1.jpg
 images:
   - image_path: /uploads/APRA-2.jpg
   - image_path: /uploads/APRA-3.jpg
