@@ -24,7 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.ourfriendselectric.com.au" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_link: https://www.instagram.com/ourfriendselectric 
 facebook_link: https://www.facebook.com/yourfriendselectric
-phone_number: +61 402 648 653
+phone_number: +61 (02) 9006 9657
 
 # Build settings
 markdown: kramdown
