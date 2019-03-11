@@ -6,7 +6,7 @@ order: 900
 _hide_content: true
 intro:
   client_name: Kid Kyoto
-  project_name: Project Name
+  project_name: Restaurant Launch
   description_html: >-
     <p>Facebook live performance by the Preatures</p><p>live broadcast , concept
     development, talent management, Lighting Design, Event
