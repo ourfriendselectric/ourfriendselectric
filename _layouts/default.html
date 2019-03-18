@@ -13,14 +13,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/vendors/jquery.easings.min.js"></script>
     <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
-    <script type="text/javascript" src="{{ site.github.url }}/js/scripts.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/js/scripts.js"></script>
 
     {% if page.heroes %}
       <script>
         $(document).ready(function() {
             var images = [];
             {% for image in page.heroes %}
-              images.push('{{ site.github.url }}/{{ image.image_path }}');
+              images.push('{{ site.url }}/{{ image.image_path }}');
             {% endfor %}
             slideshow(images);
         });
