@@ -1,0 +1,19 @@
+---
+layout: project
+categories:
+enabled: true
+order: 800
+intro:
+  client_name: Facebook X
+  project_name: Semi Permanent
+  description_html: >
+    <p>Custom Built Installation Showcasing Facebook And Instagram’s Portrait
+    Video Products</p> <p>Concept Development, Build Design, Art Direction,
+    Event Management</p> <p>Carriageworks - Sydney</p>
+featured_image_path: /uploads/FB-SP-HERO.jpg
+images:
+  - image_path: /uploads/FB-SP-2.jpg
+  - image_path: /uploads/FB-SP-3.jpg
+  - image_path: /uploads/FB-SP-4.jpg
+  - image_path: /uploads/FB-SP-5.jpg
+---

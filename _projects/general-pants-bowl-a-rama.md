@@ -1,0 +1,19 @@
+---
+layout: project
+categories:
+enabled: false
+order: 99999999
+intro:
+  client_name: General Pants
+  project_name: Bowl-A-Rama 2017
+  description_html: >
+    <p>Two Day Competition Featuring World Renowned Skaters Such As Tony
+    Hawk</p> <p>Event, Site, Sponsor, Talent &amp; Competition Management</p>
+    <p>Bondi Beach - Sydney</p>
+featured_image_path: /uploads/BOWL-HERO.jpg
+images:
+  - image_path: /uploads/BOWL-2.jpg
+  - image_path: /uploads/BOWL-3.jpg
+  - image_path: /uploads/BOWL-4.jpg
+  - image_path: /uploads/BOWL-5.jpg
+---

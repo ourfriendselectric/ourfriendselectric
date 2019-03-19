@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<section class="hero section">
+  <img src="{{ site.url }}/images/our-friends-electric.png" class="logo" />
+  <h1 class="sr-only">Our Friends Electric</h1>
+  <a href="#content" class="caret" id="caret">
+    <img src="{{ site.url }}/images/caret.svg" />
+  </a>
+</section>
+
+<article class="project section clearfix" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="details table">
+
+    {% include intro.html 
+     client_name="Our Friends Electric"
+     project_name=""
+     description=page.intro_html
+    %}
+
+  </div>
+
+  <div id="ofe-feature" class="feature">
+    <div class="inner"><img src="" class="img-responsive"/></div>
+  </div>
+
+</article>
+
+<div id="content">
+  {% assign items = site.projects | sort: 'order' %}
+  {% for project in items %}
+    {% if project.homepage == true %}
+      {{ project }}
+    {% endif %}
+  {% endfor %}
+</div>

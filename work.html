@@ -1,0 +1,12 @@
+---
+layout: layout
+permalink: /work/
+---
+{% assign items = site.projects | sort: 'order' %}
+
+{% for project in items %}
+    {% if project.enabled == true %}
+        {{ project }}
+    {% endif %}
+{% endfor %}
+
