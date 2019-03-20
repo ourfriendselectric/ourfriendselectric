@@ -27,4 +27,6 @@ _options:
     height: 1200
     resize_style: "contain"
     uploads_dir: uploads
+  layout:
+    hidden: true
 ---
