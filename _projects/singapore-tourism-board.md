@@ -1,9 +1,8 @@
 ---
 layout: project
-categories:
 enabled: true
 order: 601
-_hide_content: true
+
 intro:
   client_name: Singapore tourism board
   project_name: Singapore inside out
@@ -18,4 +17,18 @@ images:
   - image_path: /uploads/stb-inside-out-4-11-17-capture-0326-350x350px.jpg
   - image_path: /uploads/stb-inside-out-3-11-17-stb-inside-out-3-11-17-1241-350x350px.jpg
   - image_path: /uploads/stb-inside-out-4-11-17-capture-1748-350x350px.jpg
+
+_hide_content: true
+_hide_title: true
+_options:
+  image_path:
+    width: 400
+    height: 400
+    resize_style: "contain"
+    uploads_dir: uploads
+  hero_path:
+    width: 1200
+    height: 1200
+    resize_style: "contain"
+    uploads_dir: uploads
 ---

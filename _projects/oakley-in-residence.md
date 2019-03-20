@@ -1,8 +1,8 @@
 ---
 layout: project
-categories:
 enabled: false
-order:
+order: 100
+
 intro:
   client_name: Oakley
   project_name: In Residence
@@ -17,4 +17,18 @@ images:
   - image_path: /uploads/OAKLEY-02.jpg
   - image_path: /uploads/OAKLEY-03.jpg
   - image_path: /uploads/OAKLEY-04.jpg
+
+_hide_content: true
+_hide_title: true
+_options:
+  image_path:
+    width: 400
+    height: 400
+    resize_style: "contain"
+    uploads_dir: uploads
+  hero_path:
+    width: 1200
+    height: 1200
+    resize_style: "contain"
+    uploads_dir: uploads
 ---

@@ -1,9 +1,8 @@
 ---
 layout: project
-categories:
 enabled: false
 order: 99999999
-_hide_content: true
+
 intro:
   client_name: Havaianas
   project_name: Summer Launch
@@ -17,4 +16,18 @@ images:
   - image_path: /uploads/havaianas-summer-001-350x350px.jpg
   - image_path: /uploads/havaianas-summer-004-350x350px.jpg
   - image_path: /uploads/havaianas-summer-014-350x350px.jpg
+
+_hide_content: true
+_hide_title: true
+_options:
+  image_path:
+    width: 400
+    height: 400
+    resize_style: "contain"
+    uploads_dir: uploads
+  hero_path:
+    width: 1200
+    height: 1200
+    resize_style: "contain"
+    uploads_dir: uploads
 ---

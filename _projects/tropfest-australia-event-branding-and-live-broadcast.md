@@ -1,8 +1,8 @@
 ---
 layout: project
-categories:
 enabled: false
 order:
+
 intro:
   client_name: Tropfest Australia
   project_name: 'Event, Branding &amp; Live Broadcast'
@@ -16,4 +16,18 @@ images:
   - image_path: /uploads/TROPFEST-03.jpg
   - image_path: /uploads/TROPFEST-04.jpg
   - image_path: /uploads/TROPFEST-01.jpg
+
+_hide_content: true
+_hide_title: true
+_options:
+  image_path:
+    width: 400
+    height: 400
+    resize_style: "contain"
+    uploads_dir: uploads
+  hero_path:
+    width: 1200
+    height: 1200
+    resize_style: "contain"
+    uploads_dir: uploads
 ---

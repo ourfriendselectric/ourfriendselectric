@@ -1,8 +1,8 @@
 ---
 layout: project
-categories:
 enabled: true
 order: 800
+
 intro:
   client_name: Facebook X
   project_name: Semi Permanent
@@ -16,4 +16,18 @@ images:
   - image_path: /uploads/FB-SP-3.jpg
   - image_path: /uploads/FB-SP-4.jpg
   - image_path: /uploads/FB-SP-5.jpg
+
+_hide_content: true
+_hide_title: true
+_options:
+  image_path:
+    width: 400
+    height: 400
+    resize_style: "contain"
+    uploads_dir: uploads
+  hero_path:
+    width: 1200
+    height: 1200
+    resize_style: "contain"
+    uploads_dir: uploads
 ---

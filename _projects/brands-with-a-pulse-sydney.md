@@ -1,9 +1,8 @@
 ---
 layout: project
-categories:
 enabled: false
 order: 99999999
-_hide_content: true
+
 intro:
   client_name: Client Name
   project_name: Project Name
@@ -19,4 +18,18 @@ images:
   - image_path: /uploads/bwap2.jpg
   - image_path: /uploads/bwap6.jpg
   - image_path: /uploads/bwap1.jpg
+
+_hide_content: true
+_hide_title: true
+_options:
+  image_path:
+    width: 400
+    height: 400
+    resize_style: "contain"
+    uploads_dir: uploads
+  hero_path:
+    width: 1200
+    height: 1200
+    resize_style: "contain"
+    uploads_dir: uploads
 ---

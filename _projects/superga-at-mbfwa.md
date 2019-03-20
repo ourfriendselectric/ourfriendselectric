@@ -1,9 +1,8 @@
 ---
 layout: project
-categories:
 enabled: false
 order: 999999
-_hide_content: true
+
 intro:
   client_name: superga
   project_name: MBFWA  HUB
@@ -17,4 +16,18 @@ images:
   - image_path: /uploads/fashion-week-superga-hr-77-350x350px.jpg
   - image_path: /uploads/fashion-week-superga-hr-87-350x350px-1.jpg
   - image_path: /uploads/unnamed.jpg
+
+_hide_content: true
+_hide_title: true
+_options:
+  image_path:
+    width: 400
+    height: 400
+    resize_style: "contain"
+    uploads_dir: uploads
+  hero_path:
+    width: 1200
+    height: 1200
+    resize_style: "contain"
+    uploads_dir: uploads
 ---
