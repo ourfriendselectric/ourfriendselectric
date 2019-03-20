@@ -1,7 +1,7 @@
 ._work {
-    margin-top: 56px + $grid-gutter-width;
+    margin-top: $header-height-xs + $grid-gutter-width;
     @include media-breakpoint-up(md) {
-        margin-top: 76px + $grid-gutter-width;
+        margin-top: $header-height-md + $grid-gutter-width;
     }
 }
 

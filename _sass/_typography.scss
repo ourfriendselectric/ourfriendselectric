@@ -38,11 +38,12 @@
   }
 
 body {
-    font-size: 0.7rem;
+    font-size: $font-size-xs;
     @include media-breakpoint-up(xl) {
-        font-size: 0.8rem;
+        font-size: $font-size-xl;
     }
     text-transform: uppercase;
+    color: $black;
 }
 
 p {

@@ -1,0 +1,34 @@
+._contact {
+    height: 100vh;
+
+    padding-top: $header-height-xs;
+    @include media-breakpoint-up(md) {
+        padding-top: $header-height-md;
+    }
+
+    ._hero {
+        background-size: cover;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    ._info {
+        padding: $grid-gutter-width;
+        flex-direction: column;
+        height: 100%;
+
+        .__contact {
+            flex-grow: 0;
+        }
+        .__address {
+            flex-grow: 1;
+            margin-top: $grid-gutter-width;
+            margin-bottom: $grid-gutter-width;
+        }
+        .__message {
+            flex-grow: 2;
+        }
+    }
+}
