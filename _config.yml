@@ -42,7 +42,7 @@ markdown: kramdown
   
 collections:
   projects:
-    output: false
+    output: true
     permalink: /:name
 
 # Exclude from processing.
