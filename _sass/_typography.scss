@@ -38,8 +38,17 @@
   }
 
 body {
-    font-size: 14px;
+    font-size: 0.7rem;
+    @include media-breakpoint-up(xl) {
+        font-size: 0.8rem;
+    }
     text-transform: uppercase;
+}
+
+p {
+    @include media-breakpoint-down(lg) {
+        margin-bottom: 0.5rem;
+    }
 }
 
 h1,

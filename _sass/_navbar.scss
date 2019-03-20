@@ -1,16 +1,23 @@
 ._navbar {
-    background: transparent;
-    z-index: 0;
+    background: $ofe-black;
+    z-index: 10;
 
     .navbar-brand {
         padding: 0;
     }
 
     .__logo {
-        width: 60px;
+        width: 40px;
+        @include media-breakpoint-up(md) {
+            width: 60px;
+        }
     }
 
     .nav-link {
         color: $ofe-white;
+    }
+
+    .navbar-toggler {
+        color: white;
     }
 }

@@ -1,5 +1,11 @@
-._project {
+._work {
+    margin-top: 56px + $grid-gutter-width;
+    @include media-breakpoint-up(md) {
+        margin-top: 76px + $grid-gutter-width;
+    }
+}
 
+._project {
     @include media-breakpoint-up(lg) {
         margin: $grid-gutter-width $grid-gutter-width / 2;
         display: flex;
@@ -11,6 +17,12 @@
 
         .__intro {
             flex-grow: 1;
+
+            h2 {
+                @include media-breakpoint-down(lg) {
+                    font-size: 1.7rem;
+                }
+            }
         }
         
         .__collage {
@@ -42,8 +54,13 @@
     }
 
     .__feature {
+        @include media-breakpoint-down(md) {
+            margin-bottom: $grid-gutter-width;
+        }
         @include media-breakpoint-down(lg) {
             padding: 0;
+            align-items: flex-end;
+            display: flex;
         }
 
         img {

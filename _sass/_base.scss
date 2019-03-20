@@ -1,0 +1,9 @@
+// CloudCannon Features
+// https://docs.cloudcannon.com/editing/editors/visual-editor/
+.editor-content {
+    display: none;
+  }
+  
+.cms-editor-active .editor-content {
+display: block;
+}

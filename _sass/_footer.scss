@@ -4,6 +4,13 @@
     padding-top: 100px;
     padding-bottom: 0px;
 
+    .__connect {
+        margin-bottom: $grid-gutter-width;
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 0;
+        }
+    }
+
     .__social {
         ul {
             padding: 0;
@@ -23,6 +30,7 @@
     }
 
     ._navbar {
-
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
