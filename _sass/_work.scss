@@ -1,0 +1,44 @@
+._project {
+    display: flex;
+    margin: $gutter-width / 2;
+
+    &:first-of-type {
+        margin-top: $gutter-width;
+    }
+    &:last-of-type {
+        margin-bottom: $gutter-width;
+    }
+
+    .__information {
+        display: flex;
+        flex-direction: column;
+
+        .__intro {
+            flex-grow: 1;
+        }
+        
+        .__collage {
+            flex-grow: 0;
+            flex-shrink: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin: -($gutter-width / 4);
+
+            .__image {
+                width: 50%;
+                padding: $gutter-width / 4;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .__feature {
+        flex-grow: 2;
+        img {
+            width: 100%;
+        }
+    }
+}

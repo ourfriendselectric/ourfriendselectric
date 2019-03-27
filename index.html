@@ -1,15 +1,6 @@
 ---
-layout: home
-intro_html: >-
-  <p>We produce events but we're more than just an event management
-  company.</p><p>At Our Friends Electric, we excel in both insights and
-  strategy, providing industry first solutions where environment, experience and
-  the digital world meet.</p><p>Real world solutions where straight forward
-  event management just won't cut it.</p><p>The team comprises of live
-  engagement specialists and environmental designers who love what they do,
-  delivering for brands that understand that credibility is everything.</p><p>If
-  you would like to start a conversation with us and your audience please
-  contact us.</p>
+layout: layout
+
 heroes:
   - image_path: /uploads/edwin-andrade-158050-unsplash.jpg
   - image_path: /images/hero/brooke-lark-209712.jpg
@@ -32,6 +23,53 @@ heroes:
   - image_path: /uploads/yannic-laderach-530239-unsplash.jpg
   - image_path: /uploads/efe-kurnaz-315384-unsplash.jpg
   - image_path:
-_hide_content: true
 ---
+<div class="_home">
+    <section class="__hero" id="hero">
+        <img src="{{ site.url }}/images/logo.png" class="__logo" />
+        <ul>
+            {% include navigation.html %}
+        </ul>
+        <!-- <a href="#content" class="caret" id="caret"><img src="{{ site.url }}/images/caret.svg" /></a> -->
+    </section>
 
+    <section class="__about" id="__about">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <p>Placeat officiis, rem dignissimos necessitatibus expedita asperiores ea impedit deserunt nulla fuga ratione voluptatum dolorem accusamus consectetur repudiandae omnis natus vitae aperiam!</p>
+                </div>
+                <div class="col">
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <p>Placeat officiis, rem dignissimos necessitatibus expedita asperiores ea impedit deserunt nulla fuga ratione voluptatum dolorem accusamus consectetur repudiandae omnis natus vitae aperiam!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="__work" id="__work">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="__item col-md-4">
+                    <div class="__inner"></div>
+                </div>
+                <div class="__item col-md-4">
+                    <div class="__inner"></div>
+                </div>
+                <div class="__item col-md-4">
+                    <div class="__inner"></div>
+                </div>
+                <div class="__item col-md-4">
+                    <div class="__inner"></div>
+                </div>
+                <div class="__item col-md-4">
+                    <div class="__inner"></div>
+                </div>
+                <div class="__item col-md-4">
+                    <div class="__inner"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

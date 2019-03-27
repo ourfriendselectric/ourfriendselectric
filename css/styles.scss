@@ -3,16 +3,14 @@
 # only Main files contain this front matter, not partials.
 ---
 
+@import "bootstrap/bootstrap";
+
 @import "variables";
-@import "normalise";
 
-@import "utils";
-
-@import "base";
 @import "typography";
-@import "nav";
+@import "navbar";
+@import "footer";
+
+@import "home";
+@import "work";
 @import "contact";
-@import "form";
-@import "hero";
-@import "intro";
-@import "project"; 
