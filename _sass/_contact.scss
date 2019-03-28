@@ -4,7 +4,7 @@
         padding-top: $header-height-md;
     }
     @include media-breakpoint-up(lg) {
-        min-height: 100vh;
+        height: 100vh;
     }
 
     ._hero {
@@ -26,6 +26,9 @@
 
         .__contact {
             flex-grow: 0;
+            a {
+                color: $black;
+            }
         }
         .__address {
             flex-grow: 1;

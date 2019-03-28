@@ -32,17 +32,50 @@ works:
   - Kid Kyoto Restaurant Launch
   - electronic music conference Project Name
   - boiler room X samsung
+live_engagement_team:
+  - title: One
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+  - title: Two
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+  - title: Three
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+  - title: Four
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+  - title: Five
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+  - title: Six
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+the_creative_and_branding_studio:
+  - title: One
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+  - title: Two
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+  - title: Three
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+  - title: Four
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+  - title: Five
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+  - title: Six
+    icon_path: uploads/homepage/icon_placeholder_100_100.png
+
+_options:
+  icon_path:
+    width: 100
+    height: 100
+    resize_style: "contain"
+    uploads_dir: uploads/homepage
 ---
 <div class="_home">
     <section class="__hero" id="__hero">
-        <img src="{{ site[jekyll.environment].url }}/images/logo.png" class="__logo" />
+        <img src="{{ site[jekyll.environment].url }}/images/logo.png" class="__logo editable" />
     </section>
 
     <section class="__who_we_are" id="__who_we_are">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h2>Who We Are</h2>
+                    <h2 class="editable">Who We Are</h2>
                     <div class="___content editable">
                         <p>At Our Friends Electric.</p>
                         <p>Sequi possimus maxime hic delectus tempore exercitationem sed, autem repudiandae maiores, nobis dolor ipsa dolorum sint magni quidem pariatur ut quasi tempora.</p>
@@ -58,7 +91,7 @@ works:
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h2>What We Do</h2>
+                    <h2 class="editable">What We Do</h2>
                     <div class="___content editable">
                         <p>arturient Vehicula Tristique Pharetra Ultricies.</p>
                         <p>Sequi possimus maxime hic delectus tempore exercitationem sed, autem repudiandae maiores, nobis dolor ipsa dolorum sint magni quidem pariatur ut quasi tempora.</p>
@@ -74,8 +107,28 @@ works:
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="___content">1</div>
-                    <div class="___content">2</div>
+                    <div class="___content">
+                        <h2 class="editable">Live Engagement Team</h2>
+                        <div class="row">
+                            {% for item in page.live_engagement_team %}
+                                <div class="col">
+                                    <img src="{{ item.icon_path }}" alt="">
+                                    <p>{{ item.title }}</p>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="___content">
+                        <h2 class="editable">The Creative &amp; Branding Studio</h2>
+                        <div class="row">
+                            {% for item in page.the_creative_and_branding_studio %}
+                                <div class="col">
+                                    <img src="{{ item.icon_path }}" alt="">
+                                    <p>{{ item.title }}</p>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,7 +138,7 @@ works:
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2>Some of Our Work</h2>
+                    <h2 class="editable">Some of Our Work</h2>
                 </div>
             </div>
         </div>
@@ -97,14 +150,14 @@ works:
                         {% assign joined_name = project.intro.client_name | append: ' ' | append: project.intro.project_name %}
                         {% assign project_name = joined_name | slugify %}
                         {% if work_name == project_name %}
-                            <div class="__item col-md-6 col-lg-4">
+                            <a href="{{ site[jekyll.environment].url }}{{ site.baseurl }}{% link work.html %}#{{ project_name }}" class="__item col-md-6 col-lg-4">
                                 <div class="___overlay">
                                     {{ project.intro.client_name }}<br />
                                     {{ project.intro.project_name }}<br />
-                                    <a href="{{ site[jekyll.environment].url }}{{ site.baseurl }}{% link work.html %}#{{ project_name }}">See More</a>
+                                    <span>See More</span>
                                 </div>
                                 <img src="{{ project.featured_image_path }}" class="img-fluid" />
-                            </div>
+                            </a>
                         {% endif %}
                     {% endfor %}
                 {% endfor %}

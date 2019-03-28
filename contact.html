@@ -17,15 +17,15 @@ _options:
         <div class="col-lg-6">
             <div class="row no-gutters _info">
                 <div class="col __contact editable">
-                    <h2>Get In Contact</h2>
-                    <p>+61 (02) 9006 9657</p>
-                    <a href="mailto:hello@ourfriendselectric.com.au">hello@ourfriendselectric.com.au</a>
+                    <h2 class="editable">Get In Contact</h2>
+                    {{ site.data.information.phone_number }}<br />
+                    <a href="mailto:{{ site.data.information.email_address }}">{{ site.data.information.email_address }}</a>
                 </div>
                 <div class="col __address editable">
-                    <h3>Address</h3>
-                    <address>122 Buckingham Street, Surry Hill 2010</address>
+                    <h3 class="editable">Address</h3>
+                    <address>{{ site.data.information.address_html }}</address>
                     <iframe
-                        height="500"
+                        height="400"
                         id="gmap_canvas"
                         src="https://maps.google.com/maps?q=122%20Buckingham%20Street%2C%20Surry%20Hill%202010&t=&z=13&ie=UTF8&iwloc=&output=embed"
                         frameborder="0" 
@@ -36,10 +36,10 @@ _options:
                     ></iframe>
                 </div>
                 <div class="col __message editable">
-                    <h3>Message us</h3>
-                    <form action="https://formspree.io/hello@ourfriendselectric.com.au" method="POST">
+                    <h3 class="editable">Message us</h3>
+                    <form action="https://formspree.io/{{ site.data.information.address_html }}" method="POST">
                         <input type="hidden" name="_subject" value="Contact from the website" />
-                        <input type="hidden" name="_next" value="http://www.ourfriendselectric.com.au" />
+                        <input type="hidden" name="_next" value="{{ site[jekyll.environment].url }}{{ site.baseurl }}{% link contact.html %}" />
 
                         <div class="form-group">
                         <label for="name">Name</label>
