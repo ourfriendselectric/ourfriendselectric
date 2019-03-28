@@ -1,5 +1,27 @@
 $(document).ready(function() {
+    // Hide the NavBar on Scroll
+    var additionalOffset = document.getElementById("mainNav").clientHeight;
+    var prevScrollpos = window.pageYOffset;
+    var anchorPoint = window.pageYOffset + additionalOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("mainNav").classList.remove("hideNav");
+            document.getElementById("mainNav").classList.add("showNav");
+            anchorPoint = window.pageYOffset + additionalOffset;
+        } else {
+            if (prevScrollpos > anchorPoint) {
+                document.getElementById("mainNav").classList.remove("showNav");
+                document.getElementById("mainNav").classList.add("hideNav");
+            }
+        }
+        prevScrollpos = currentScrollPos
+    }
 
+    // If the page loads with # (Anchored to a project) then hide the nav
+    if (window.location.href.indexOf('#') > 0) {
+        document.getElementById("mainNav").classList.add("hideNav");
+    }
 });
 
 function randomImage(images) {

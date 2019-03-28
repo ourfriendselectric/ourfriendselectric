@@ -1,18 +1,27 @@
 ---
 layout: layout
 permalink: /contact
+
+image_path: /uploads/contact/placeholder-1300-1600.jpg
+
+_options:
+  image_path:
+    width: 1000
+    height: 2000
+    resize_style: "contain"
+    uploads_dir: uploads/contact
 ---
 
 <div class="_contact">
     <div class="row no-gutters h-100">
         <div class="col-lg-6">
             <div class="row no-gutters _info">
-                <div class="col __contact">
-                    <h1>Get In Contact</h1>
+                <div class="col __contact editable">
+                    <h2>Get In Contact</h2>
                     <p>+61 (02) 9006 9657</p>
                     <a href="mailto:hello@ourfriendselectric.com.au">hello@ourfriendselectric.com.au</a>
                 </div>
-                <div class="col __address">
+                <div class="col __address editable">
                     <h3>Address</h3>
                     <address>122 Buckingham Street, Surry Hill 2010</address>
                     <iframe
@@ -26,7 +35,7 @@ permalink: /contact
                         class="embed-responsive"
                     ></iframe>
                 </div>
-                <div class="col __message">
+                <div class="col __message editable">
                     <h3>Message us</h3>
                     <form action="https://formspree.io/hello@ourfriendselectric.com.au" method="POST">
                         <input type="hidden" name="_subject" value="Contact from the website" />
@@ -51,8 +60,6 @@ permalink: /contact
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 _hero" style="background-image: url({{ site[jekyll.environment].url }}/uploads/placeholder-1300-1600.jpg);">
-
-        </div>
+        <div class="col-lg-6 _hero" style="background-image: url({{ page.image_path }});"></div>
     </div>
 </div>

@@ -1,8 +1,8 @@
 ._work {
-    // margin-top: $header-height-xs + $grid-gutter-width;
-    // @include media-breakpoint-up(md) {
-    //     margin-top: $header-height-md + $grid-gutter-width;
-    // }
+    margin-top: $header-height-xs;
+    @include media-breakpoint-up(md) {
+        margin-top: $header-height-md;
+    }
 }
 
 ._project {
@@ -18,13 +18,36 @@
         display: flex;
         flex-direction: column;
 
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        @include media-breakpoint-up(lg) {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 0;
+        }
+
         .__intro {
             flex-grow: 1;
 
-            h2 {
-                @include media-breakpoint-down(lg) {
-                    font-size: 1.7rem;
-                }
+            padding-left: 5px;
+            padding-right: 5px;
+            @include media-breakpoint-up(sm) {
+               padding-left: 5px;
+               padding-right: 5px;
+            }
+            @include media-breakpoint-up(lg) {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+            h3 {
+                // @include media-breakpoint-down(lg) {
+                //     font-size: 1.7rem;
+                // }
+            }
+            .___description {
+                font-size: 0.8rem;
             }
         }
         
@@ -34,9 +57,6 @@
             display: flex;
             flex-wrap: wrap;
 
-            margin-left: -($grid-gutter-width / 8);
-            margin-right: -($grid-gutter-width / 8);
-            margin-bottom: $grid-gutter-width / 4;
             @include media-breakpoint-up(lg) {
                 margin: -($grid-gutter-width / 4);
             }
@@ -44,8 +64,13 @@
             .__image {
 
                 width: 50%;
-                padding: $grid-gutter-width / 8;
+                padding: 5px;
+                @include media-breakpoint-up(sm) {
+                    width: 25%;
+                    padding: 5px;
+                }
                 @include media-breakpoint-up(lg) {
+                    width: 50%;
                     padding: $grid-gutter-width / 4;
                 }
 

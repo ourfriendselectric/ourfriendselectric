@@ -1,28 +1,20 @@
 <footer class="_footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-9 __connect">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2>Say Hello</h2>
-                        <address>
-                            105/2a Rowntree Street<br/>
-                            Balmain<br/>
-                            NSW<br/>
-                            2041<br/>
-                        </address>
-                    </div>
-                    <div class="col-md-8">
-                        <h2 class="d-none d-sm-block">&nbsp;</h2>
-                        <a href="#"></a>hello@ourfriendselectric.com.au</a>
-                    </div>
-                </div>
+            <div class="col-lg-4 __find">
+                <h3 class="h2">Find Us</h3>
+                <address>{{ site.data.information.address_html }}</address>
             </div>
-            <div class="col-md-3 __social">
-                <h2>Connect</h2>
+            <div class="col-lg-4 __contact">
+                <h3 class="h2">Contact Us</h3>
+                {{ site.data.information.phone_number }}<br />
+                <a href="mailto:{{ site.data.information.email_address }}">{{ site.data.information.email_address }}</a>
+            </div>
+            <div class="col-lg-4 __follow">
+                <h3 class="h2">Follow Us</h3>
                 <ul>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="{{ site.data.information.instagram_url }}"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="{{ site.data.information.facebook_url }}"><i class="fab fa-facebook"></i></a></li>
                 </ul>
             </div>
         </div>

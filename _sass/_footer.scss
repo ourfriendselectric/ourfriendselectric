@@ -4,14 +4,35 @@
     padding-top: 100px;
     padding-bottom: 0px;
 
-    .__connect {
-        margin-bottom: $grid-gutter-width;
-        @include media-breakpoint-up(lg) {
+    .__find,
+    .__contact,
+    .__follow {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            flex-grow: 2;
+            @include media-breakpoint-up(lg) {
+                margin-bottom: 40px;
+            }
+        }
+
+        margin-bottom: 40px;
+    }
+
+    .__find {
+        address {
             margin-bottom: 0;
         }
     }
 
-    .__social {
+    .__contact {
+        a {
+            color: $white;
+        }
+    }
+
+    .__follow {
         ul {
             padding: 0;
             margin: 0;
