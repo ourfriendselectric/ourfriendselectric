@@ -14,7 +14,6 @@ images:
   - image_path: /uploads/arnotts1.jpg
   - image_path: /uploads/arnotts4.jpg
 
-_hide_content: true
 _hide_title: true
 _options:
   image_path:

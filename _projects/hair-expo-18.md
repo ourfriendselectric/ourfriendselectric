@@ -18,7 +18,6 @@ images:
   - image_path: /uploads/hair-6.jpg
   - image_path: /uploads/hair-3.jpg
 
-_hide_content: true
 _hide_title: true
 _options:
   image_path:

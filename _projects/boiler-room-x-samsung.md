@@ -18,7 +18,6 @@ images:
   - image_path: /uploads/boilerroomxsamsung-25-350x350px.jpg
   - image_path: /uploads/boilerroomxsamsung-35-350x350px.jpg
 
-_hide_content: true
 _hide_title: true
 _options:
   image_path:

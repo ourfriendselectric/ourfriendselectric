@@ -17,7 +17,6 @@ images:
   - image_path: /uploads/fashion-week-etihad-hr-22-350x350px-6.jpg
   - image_path: /uploads/fashion-week-etihad-lr-2-1000x1000px-6.jpg
 
-_hide_content: true
 _hide_title: true
 _options:
   image_path:

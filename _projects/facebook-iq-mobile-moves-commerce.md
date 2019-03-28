@@ -18,7 +18,6 @@ images:
   - image_path: /uploads/fb-iq-mobile-moves-002-350x350px.jpg
   - image_path: /uploads/fb-iq-mobile-moves-004-350x350px.jpg
 
-_hide_content: true
 _hide_title: true
 _options:
   image_path:

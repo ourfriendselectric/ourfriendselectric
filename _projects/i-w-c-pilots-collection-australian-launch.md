@@ -18,7 +18,6 @@ images:
   - image_path: /uploads/unnamed-3-1.jpg
   - image_path: /uploads/unnamed-5.jpg
 
-_hide_content: true
 _hide_title: true
 _options:
   image_path:
