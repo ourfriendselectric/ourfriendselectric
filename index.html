@@ -1,6 +1,5 @@
 ---
 layout: layout
-
 heroes:
   - image_path: /uploads/edwin-andrade-158050-unsplash.jpg
   - image_path: /images/hero/brooke-lark-209712.jpg
@@ -23,6 +22,7 @@ heroes:
   - image_path: /uploads/yannic-laderach-530239-unsplash.jpg
   - image_path: /uploads/efe-kurnaz-315384-unsplash.jpg
 works:
+  - boiler room X samsung
   - Reed Exhibitions Hair Expo Awards Night & GenNext Gala 2018
   - instagram fashion
   - I.W.C pilots collection australian launch
@@ -31,7 +31,6 @@ works:
   - Instagram Creative Collisions
   - Kid Kyoto Restaurant Launch
   - electronic music conference Project Name
-  - boiler room X samsung
 live_engagement_team:
   - title: One
     icon_path: uploads/homepage/icon_placeholder_100_100.png
@@ -45,6 +44,8 @@ live_engagement_team:
     icon_path: uploads/homepage/icon_placeholder_100_100.png
   - title: Six
     icon_path: uploads/homepage/icon_placeholder_100_100.png
+  - title: Seven
+    icon_path: /uploads/homepage/icon_placeholder_100_100.png
 the_creative_and_branding_studio:
   - title: One
     icon_path: uploads/homepage/icon_placeholder_100_100.png
@@ -58,17 +59,17 @@ the_creative_and_branding_studio:
     icon_path: uploads/homepage/icon_placeholder_100_100.png
   - title: Six
     icon_path: uploads/homepage/icon_placeholder_100_100.png
-
 _options:
   icon_path:
     width: 100
     height: 100
-    resize_style: "contain"
+    resize_style: contain
     uploads_dir: uploads/homepage
 ---
+
 <div class="_home">
     <section class="__hero" id="__hero">
-        <img src="{{ site[jekyll.environment].url }}/images/logo.png" class="__logo editable" />
+        <img src="https://composed-peak.cloudvent.net/images/logo.png" class="__logo editable" />
     </section>
 
     <section class="__who_we_are" id="__who_we_are">
@@ -91,7 +92,9 @@ _options:
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h2 class="editable">What We Do</h2>
+                    <h2 class="editable">
+                      What We Do
+                    </h2>
                     <div class="___content editable">
                         <p>arturient Vehicula Tristique Pharetra Ultricies.</p>
                         <p>Sequi possimus maxime hic delectus tempore exercitationem sed, autem repudiandae maiores, nobis dolor ipsa dolorum sint magni quidem pariatur ut quasi tempora.</p>
@@ -112,7 +115,7 @@ _options:
                         <div class="row">
                             {% for item in page.live_engagement_team %}
                                 <div class="col">
-                                    <img src="{{ item.icon_path }}" alt="">
+                                    <img src="{{ item.icon_path }}" alt="" />
                                     <p>{{ item.title }}</p>
                                 </div>
                             {% endfor %}
@@ -123,7 +126,7 @@ _options:
                         <div class="row">
                             {% for item in page.the_creative_and_branding_studio %}
                                 <div class="col">
-                                    <img src="{{ item.icon_path }}" alt="">
+                                    <img src="{{ item.icon_path }}" alt="" />
                                     <p>{{ item.title }}</p>
                                 </div>
                             {% endfor %}
