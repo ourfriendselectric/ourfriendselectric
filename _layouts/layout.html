@@ -6,9 +6,10 @@
   <body>
     
     <nav class="navbar navbar-expand _header _navbar fixed-top {% if page.url == "/" %} _homepage {% endif %}" id="mainNav">
-        <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}">
+        <a class="navbar-brand" href="{{ site[jekyll.environment].url }}{{ site.baseurl }}{% link index.html %}">
           <img src="{{ site.url }}/images/logo-white.png" class="logo __logo" />
         </a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
