@@ -18,7 +18,6 @@ images:
   - image_path: /uploads/stb-inside-out-3-11-17-stb-inside-out-3-11-17-1241-350x350px.jpg
   - image_path: /uploads/stb-inside-out-4-11-17-capture-1748-350x350px.jpg
 
-_hide_title: true
 _options:
   image_path:
     width: 400

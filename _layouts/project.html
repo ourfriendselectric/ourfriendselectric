@@ -1,9 +1,7 @@
-{% assign joined_name = page.intro.client_name | append: ' ' | append: page.intro.project_name %}
-{% assign project_name = joined_name | slugify %}
-
-<article class="_project" id="{{ project_name }}" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="_project" id="{{ page.title | slugify }}" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="col-lg-5 __information">
-        <div class="__intro">
+        <div class="__intro editable">
+            <h3>{{ page.title }}</h3>
             <h3>{{ page.intro.client_name }}<br>{{ page.intro.project_name }}</h3>
             <div class="___description">{{ page.intro.description_html }}</div>
         </div>

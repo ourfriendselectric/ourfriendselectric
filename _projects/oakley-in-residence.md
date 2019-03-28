@@ -18,7 +18,6 @@ images:
   - image_path: /uploads/OAKLEY-03.jpg
   - image_path: /uploads/OAKLEY-04.jpg
 
-_hide_title: true
 _options:
   image_path:
     width: 400

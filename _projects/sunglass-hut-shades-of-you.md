@@ -18,7 +18,6 @@ images:
   - image_path: '/uploads/SUNHUT-4.jpg'
   - image_path: '/uploads/SUNHUT-5.jpg'
 
-_hide_title: true
 _options:
   image_path:
     width: 400

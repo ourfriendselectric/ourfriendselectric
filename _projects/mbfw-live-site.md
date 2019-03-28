@@ -17,7 +17,6 @@ images:
   - image_path: /uploads/mbfw2.jpg
   - image_path: /uploads/mbfa-11.jpg
 
-_hide_title: true
 _options:
   image_path:
     width: 400

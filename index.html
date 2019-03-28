@@ -149,8 +149,7 @@ _options:
                 {% for work in page.works %}
                     {% assign work_name = work | slugify %}
                     {% for project in site.projects %}
-                        {% assign joined_name = project.intro.client_name | append: ' ' | append: project.intro.project_name %}
-                        {% assign project_name = joined_name | slugify %}
+                        {% assign project_name = project.title | slugify %}
                         {% if work_name == project_name %}
                             <a href="{{ site[jekyll.environment].url }}{{ site.baseurl }}{% link work.html %}#{{ project_name }}" class="__item col-md-6 col-lg-4">
                                 <div class="___overlay">
@@ -167,16 +166,3 @@ _options:
         </div>
     </section>
 </div>
-<!-- 
-{% for work in page.works %}
-    {% assign name = work | slugify %}
-    {% for project in site.projects %}
-        {% assign name_comparison = work | slugify %}
-        {% if name == name_comparison %}
-            <div class="__item col-md-6 col-lg-4">
-                <img src="{{ project.featured_image_path }}" class="img-fluid" />
-            </div>
-        {% endif %}
-    {% endfor %}
-{% endfor %}
- -->

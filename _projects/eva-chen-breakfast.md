@@ -17,7 +17,6 @@ images:
   - image_path: /uploads/evb-1-1.jpg
   - image_path: /uploads/ecb-10.jpg
 
-_hide_title: true
 _options:
   image_path:
     width: 400
