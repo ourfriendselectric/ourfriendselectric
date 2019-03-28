@@ -19,7 +19,8 @@ $(document).ready(function() {
     }
 
     // If the page loads with # (Anchored to a project) then hide the nav
-    if (window.location.href.indexOf('#') > 0) {
+    // But only if you're not at the top of the page
+    if (window.location.href.indexOf('#') > 0 && window.pageYOffset > 0) {
         document.getElementById("mainNav").classList.add("hideNav");
     }
 });
