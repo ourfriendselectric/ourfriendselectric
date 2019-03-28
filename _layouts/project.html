@@ -1,18 +1,21 @@
-<article class="_project" itemscope itemtype="http://schema.org/BlogPosting">
+{% assign joined_name = page.intro.client_name | append: ' ' | append: page.intro.project_name %}
+{% assign project_name = joined_name | slugify %}
+
+<article class="_project" id="{{ project_name }}" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="col-lg-5 __information">
         <div class="__intro">
             <h2>{{ page.intro.client_name }}<br>{{ page.intro.project_name }}</h2>
             <div class="description">{{ page.intro.description_html }}</div>
         </div>
         <div class="__collage">
-            <div class="__image"><img src="{{ site.url }}/{{ page.images[0].image_path }}" class="img-responsive" /></div>
-            <div class="__image"><img src="{{ site.url }}/{{ page.images[1].image_path }}" class="img-responsive" /></div>
-            <div class="__image"><img src="{{ site.url }}/{{ page.images[2].image_path }}" class="img-responsive" /></div>
-            <div class="__image"><img src="{{ site.url }}/{{ page.images[3].image_path }}" class="img-responsive" /></div>
+            <div class="__image"><img src="{{ site[jekyll.environment].url }}/{{ page.images[0].image_path }}" class="img-responsive" /></div>
+            <div class="__image"><img src="{{ site[jekyll.environment].url }}/{{ page.images[1].image_path }}" class="img-responsive" /></div>
+            <div class="__image"><img src="{{ site[jekyll.environment].url }}/{{ page.images[2].image_path }}" class="img-responsive" /></div>
+            <div class="__image"><img src="{{ site[jekyll.environment].url }}/{{ page.images[3].image_path }}" class="img-responsive" /></div>
         </div>
     </div>
 
     <div class="col-lg-7 __feature">
-        <img src="{{ site.url }}/{{ page.featured_image_path }}" class="img-responsive"/>
+        <img src="{{ site[jekyll.environment].url }}/{{ page.featured_image_path }}" class="img-responsive"/>
     </div>
 </article>

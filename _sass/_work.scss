@@ -1,14 +1,17 @@
 ._work {
-    margin-top: $header-height-xs + $grid-gutter-width;
-    @include media-breakpoint-up(md) {
-        margin-top: $header-height-md + $grid-gutter-width;
-    }
+    // margin-top: $header-height-xs + $grid-gutter-width;
+    // @include media-breakpoint-up(md) {
+    //     margin-top: $header-height-md + $grid-gutter-width;
+    // }
 }
 
 ._project {
     @include media-breakpoint-up(lg) {
-        margin: $grid-gutter-width $grid-gutter-width / 2;
         display: flex;
+        padding-top: $grid-gutter-width;
+        padding-bottom: $grid-gutter-width;
+        margin-left: $grid-gutter-width / 2;
+        margin-right: $grid-gutter-width / 2;
     }
 
     .__information {

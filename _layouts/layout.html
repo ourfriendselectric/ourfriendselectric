@@ -5,14 +5,17 @@
 
   <body>
     
-    <nav class="navbar navbar-expand fixed-top _navbar">
-        <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}">
-            <img src="{{ site.url }}/images/logo-white.png" class="logo __logo" />
-        </a>
+    <nav class="navbar navbar-expand _header _navbar">
+        {% if page.url != "/index" or page.url != "/" %}
+          <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}">
+              <img src="{{ site.url }}/images/logo-white.png" class="logo __logo" />
+          </a>
+        {% endif %}
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+          <i class="fas fa-bars"></i>
         </button>
-    
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 {% include navigation.html %}
@@ -27,7 +30,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="{{ site.url }}/js/scripts.js"></script>
+    <script type="text/javascript" src="{{ site[jekyll.environment].url }}/js/scripts.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/vendors/jquery.easings.min.js"></script> -->
     <!-- <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script> -->
 
@@ -37,7 +40,7 @@
       $(document).ready(function() {
           var images = [];
           {% for image in page.heroes %}
-            images.push('{{ site.url }}{{ image.image_path }}');
+            images.push('{{ site[jekyll.environment].url }}{{ image.image_path }}');
           {% endfor %}
           randomImage(images);
       });

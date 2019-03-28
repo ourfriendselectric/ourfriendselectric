@@ -3,13 +3,25 @@ $(document).ready(function() {
 });
 
 function randomImage(images) {
-    console.log('Random Image');
-    var min = 0;
-    var max = images.length - 1;
-    var random = Math.floor(Math.random() * (max - min + 1)) + min;
-    var image = "url(" + images[random] + ")";
-    $('#hero').css('background-image', image);
+    const panels = [
+        '#__hero',
+        '#__who_we_are',
+        '#__what_we_do',
+        '#__services',
+    ];
+
+    const allImages = images;
+    panels.forEach(panel => {
+        const index = getRandomImage(allImages);
+        $(panel).css('background-image', "url(" + images[index] + ")");
+        allImages.splice(index, 1);
+    });
 }
 
+function getRandomImage(images) {
+    const min = 0;
+    const max = images.length - 1;
+    return random = Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
 

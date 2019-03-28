@@ -1,7 +1,7 @@
 <li class="nav-item">
-    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}">About</a>
+    <a class="nav-link" href="{{ site[jekyll.environment].url }}{{ site.baseurl }}{% link index.html %}">Our Story</a>
 </li><li class="nav-item">
-    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/work">Work</a>
+    <a class="nav-link" href="{{ site[jekyll.environment].url }}{{ site.baseurl }}{% link work.html %}">Our Creds</a>
 </li><li class="nav-item">
-    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/contact">Contact</a>
+    <a class="nav-link" href="{{ site[jekyll.environment].url }}{{ site.baseurl }}{% link contact.html %}">Contact</a>
 </li>

@@ -24,7 +24,7 @@ _options:
     height: 400
     resize_style: "contain"
     uploads_dir: uploads
-  hero_path:
+  featured_image_path:
     width: 1200
     height: 1200
     resize_style: "contain"
