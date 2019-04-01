@@ -7,10 +7,9 @@ intro:
   client_name: AFL Women's
   project_name: League Launch
   description_html: >-
-    <p>AFL HOUSE - MELBOURNE,&nbsp; AUSTRALIA</p><p>INSTAGRAM CONTENT
-    DEVELOPMENT FOR THE LAUNCH OF THE AFL WOMEN'S LEAGUE&nbsp;</p><p>CONCEPT
-    DEVELOPMENT, CREATIVE DIRECTION, SHOOT PRODUCTION, ART DIRECTION,
-    ILLUSTRATION,&nbsp;</p>
+    <p>AFL house - Melbourne,&nbsp; Australia</p>
+    <p>Instagram content development for the launch of the AFL women's league&nbsp;</p>
+    <p>Concept development, creative direction, shoot production, art direction, illustration</p>
 
 featured_image_path: /uploads/afl-womens-008-1000x1000px.jpg
 images:
