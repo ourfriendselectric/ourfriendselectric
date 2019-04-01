@@ -18,6 +18,8 @@ images:
   - image_path: '/uploads/AUSTRALIAS-LEADER-DEBATE-03.jpg'
   - image_path: '/uploads/AUSTRALIAS-LEADER-DEBATE-HERO.jpg'
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

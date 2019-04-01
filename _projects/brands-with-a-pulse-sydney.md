@@ -19,6 +19,8 @@ images:
   - image_path: /uploads/bwap6.jpg
   - image_path: /uploads/bwap1.jpg
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

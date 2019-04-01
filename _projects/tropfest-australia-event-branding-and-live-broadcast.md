@@ -17,6 +17,8 @@ images:
   - image_path: /uploads/TROPFEST-04.jpg
   - image_path: /uploads/TROPFEST-01.jpg
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

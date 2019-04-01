@@ -17,6 +17,8 @@ images:
   - image_path: /uploads/kid-kyoto-001-350x350px.jpg
   - image_path: /uploads/kid-kyoto-oo6-350x350px.jpg
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

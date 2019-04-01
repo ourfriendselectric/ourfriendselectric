@@ -17,6 +17,8 @@ images:
   - image_path: /uploads/havaianas-summer-004-350x350px.jpg
   - image_path: /uploads/havaianas-summer-014-350x350px.jpg
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

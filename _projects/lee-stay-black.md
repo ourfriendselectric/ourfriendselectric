@@ -17,6 +17,8 @@ images:
   - image_path: /uploads/LEE-4.jpg
   - image_path: /uploads/LEE-5.jpg
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

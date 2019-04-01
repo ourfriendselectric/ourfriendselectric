@@ -18,6 +18,8 @@ images:
   - image_path: /uploads/ig-fashion-4.jpg
   - image_path: /uploads/ig-fashion-5-1.jpg
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

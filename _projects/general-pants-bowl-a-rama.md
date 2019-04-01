@@ -17,6 +17,8 @@ images:
   - image_path: /uploads/BOWL-4.jpg
   - image_path: /uploads/BOWL-5.jpg
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

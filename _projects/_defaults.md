@@ -16,6 +16,8 @@ images:
   - image_path: /uploads/placeholder-400.jpg
   - image_path: /uploads/placeholder-400.jpg
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

@@ -17,6 +17,8 @@ images:
   - image_path: /uploads/republic-records-001-350x350px.jpg
   - image_path: /uploads/republic-records-003-350x350px.jpg
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

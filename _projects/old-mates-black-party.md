@@ -18,6 +18,8 @@ images:
   - image_path: '/uploads/OLD-MATES-4.jpg'
   - image_path: '/uploads/OLD-MATES-5.jpg'
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

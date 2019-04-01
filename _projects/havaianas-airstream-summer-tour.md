@@ -18,6 +18,8 @@ images:
   - image_path: '/uploads/HAVAIANAS-AIRSTREAM-04.png'
   - image_path: '/uploads/HAVAIANAS-AIRSTREAM-01.jpg'
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

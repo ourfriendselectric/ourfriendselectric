@@ -16,6 +16,8 @@ images:
   - image_path: /uploads/sesion-taquilla-015-350x350px.jpg
   - image_path: /uploads/sesion-taquilla-009-350x350px.jpg
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400

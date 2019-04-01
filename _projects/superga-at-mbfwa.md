@@ -17,6 +17,8 @@ images:
   - image_path: /uploads/fashion-week-superga-hr-87-350x350px-1.jpg
   - image_path: /uploads/unnamed.jpg
 
+_hide_content: true
+
 _options:
   image_path:
     width: 400
