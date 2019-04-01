@@ -2,17 +2,54 @@
 layout: layout
 permalink: /our-creds
 
+visible_projects:
+  - Afl Womens League Launch
+  - Apra Music Awards
+  - Arnotts Cake Launch
+  - Australias First Online Leaders Debate
+  - Boiler Room X Samsung
+  - Brands With A Pulse Sydney
+  - Electronic Music Conference
+  - Etihad X Fashion Week
+  - Etihad X Mbfwa
+  - Eva Chen Breakfast
+  - Facebook Cannected
+  - Facebook Iq Mobile Moves Commerce
+  - Facebook X Semi Permanent
+  - General Pants Bowl A Rama
+  - Glue Store X Adidas
+  - Hair Expo 18
+  - Havaianas Airstream Summer Tour
+  - Havaianas Summer Launch
+  - I W C Pilots Collection Australian Launch
+  - Ig Fashion
+  - Instagram Creative Collisions
+  - Kid Kyoto
+  - Lee Stay Black
+  - Mbfw Live Site
+  - Oakley In Residence
+  - Old Mates Black Party
+  - Ray Ban X Boiler Room Chet Faker
+  - Republic Records
+  - Sesión Tequila Australian Launch
+  - Singapore Tourism Board
+  - Sunglass Hut Shades Of You
+  - Superga At Mbfwa
+  - Tropfest Australia Event Branding And Live Broadcast
+
 _options:
   layout:
     hidden: true
 ---
 
 <div class="_work">
-    {% assign items = site.projects | sort: 'order' %}
-
-    {% for project in items %}
-        {% if project.enabled == true %}
-            {{ project }}
-        {% endif %}
+    {% for work in page.visible_projects %}
+        {% assign work_name = work | slugify %}
+        {% for project in site.projects %}
+            {% assign project_name = project.title | slugify %}
+            {% if work_name == project_name %}
+                {{ project }}
+            {% endif %}
+        {% endfor %}
     {% endfor %}
 </div>
