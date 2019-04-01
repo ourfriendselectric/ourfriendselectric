@@ -2,7 +2,7 @@
 layout: layout
 permalink: /our-creds
 
-visible_projects:
+works:
   - Afl Womens League Launch
   - Apra Music Awards
   - Arnotts Cake Launch
@@ -43,7 +43,7 @@ _options:
 ---
 
 <div class="_work">
-    {% for work in page.visible_projects %}
+    {% for work in page.works %}
         {% assign work_name = work | slugify %}
         {% for project in site.projects %}
             {% assign project_name = project.title | slugify %}
