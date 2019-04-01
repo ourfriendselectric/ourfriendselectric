@@ -2,7 +2,7 @@
 layout: layout
 permalink: /contact
 
-image_path: /uploads/contact/placeholder-1300-1600.jpg
+image_path: /uploads/contact/hero.jpg
 
 _options:
   image_path:
@@ -18,12 +18,12 @@ _options:
     <div class="row no-gutters h-100">
         <div class="col-lg-6">
             <div class="row no-gutters _info">
-                <div class="col __contact editable">
+                <div class="col __contact">
                     <h2 class="editable">Get In Contact</h2>
                     {{ site.data.information.phone_number }}<br />
                     <a href="mailto:{{ site.data.information.email_address }}">{{ site.data.information.email_address }}</a>
                 </div>
-                <div class="col __address editable">
+                <div class="col __address">
                     <h3 class="editable">Address</h3>
                     <address>{{ site.data.information.address_html }}</address>
                     <iframe
@@ -37,7 +37,7 @@ _options:
                         class="embed-responsive"
                     ></iframe>
                 </div>
-                <div class="col __message editable">
+                <div class="col __message">
                     <h3 class="editable">Message us</h3>
                     <form action="https://formspree.io/{{ site.data.information.address_html }}" method="POST">
                         <input type="hidden" name="_subject" value="Contact from the website" />
