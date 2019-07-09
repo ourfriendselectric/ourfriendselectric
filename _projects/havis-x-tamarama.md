@@ -2,7 +2,7 @@
 layout: project
 categories:
 homepage: true
-order: 16
+order: 10
 _hide_content: true
 intro:
   client_name: Havis X
