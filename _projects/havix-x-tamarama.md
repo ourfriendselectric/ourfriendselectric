@@ -13,10 +13,15 @@ intro:
     SPONSORSHIP, FACILITIES, ARTIST MANAGEMENT AND CONCEPT
     DEVELOPMENT&nbsp;</p><p>TAMARAMA SURF LIFE SAVING CLUB, SYDNEY,
     AUSTRALIA&nbsp;</p>
-featured_image_path: /uploads/APRA-HERO.jpg
+featured_image_path: >-
+  /uploads/20181019-havaianas-brand-activation--tamarama-slsc---photo-ken-butti0408.jpg
 images:
-  - image_path: /uploads/APRA-2.jpg
-  - image_path: /uploads/APRA-3.jpg
-  - image_path: /uploads/APRA-4.jpg
-  - image_path: /uploads/APRA-5.jpg
+  - image_path: >-
+      /uploads/20181019-havaianas-brand-activation--tamarama-slsc---photo-ken-butti0422.jpg
+  - image_path: >-
+      /uploads/20181019-havaianas-brand-activation--tamarama-slsc---photo-ken-butti0435.jpg
+  - image_path: >-
+      /uploads/20181019-havaianas-brand-activation--tamarama-slsc---photo-ken-butti0427.jpg
+  - image_path: >-
+      /uploads/20181019-havaianas-brand-activation--tamarama-slsc---photo-ken-butti0398.jpg
 ---
