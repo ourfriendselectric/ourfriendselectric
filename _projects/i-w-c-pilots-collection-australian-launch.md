@@ -1,8 +1,8 @@
 ---
 layout: project
 categories:
-homepage: true
-order: 101
+homepage: false
+order: 999999
 _hide_content: true
 intro:
   client_name: I.W.C pilots collection
