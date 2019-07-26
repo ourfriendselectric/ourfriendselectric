@@ -5,8 +5,8 @@ homepage: true
 order: 200
 _hide_content: true
 intro:
-  client_name: Client Name
-  project_name: Project Name
+  client_name: Brands with
+  project_name: a pulse
   description_html: >-
     <p>Custom brand experience for over 1000 agencies &amp;
     clients</p><p>Identity design, concept development, set &amp; environment
