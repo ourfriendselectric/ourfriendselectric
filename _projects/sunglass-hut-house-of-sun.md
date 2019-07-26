@@ -1,8 +1,8 @@
 ---
 layout: project
 categories:
-homepage: false
-order: 99999999
+homepage: true
+order: 500
 _hide_content: true
 intro:
   client_name: SUNGLASS HUT
