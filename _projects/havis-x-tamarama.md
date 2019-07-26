@@ -1,8 +1,8 @@
 ---
 layout: project
 categories:
-homepage: false
-order: 999999999
+homepage: true
+order: 300
 _hide_content: true
 intro:
   client_name: Havaianas X
