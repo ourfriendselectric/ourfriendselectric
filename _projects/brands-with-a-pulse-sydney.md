@@ -5,7 +5,7 @@ homepage: true
 order: 200
 _hide_content: true
 intro:
-  client_name: facebook
+  client_name: Facebook
   project_name: brands with a pulse
   description_html: >-
     <p>Custom brand experience for over 1000 agencies &amp;
