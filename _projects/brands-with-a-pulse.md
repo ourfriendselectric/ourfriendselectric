@@ -1,7 +1,7 @@
 ---
 layout: project
 categories:
-homepage: true
+homepage: false
 order: 600
 _hide_content: true
 intro:
