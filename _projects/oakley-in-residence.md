@@ -2,7 +2,7 @@
 layout: project
 categories:
 homepage: false
-order:
+order: 9999
 intro:
   client_name: Oakley
   project_name: In Residence
